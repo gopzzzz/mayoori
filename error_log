@@ -1,0 +1,593 @@
+[08-Oct-2019 11:36:57 UTC] PHP Parse error:  syntax error, unexpected ''photo'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/kcttuorg/public_html/kcttu_admin/application/controllers/Admin.php on line 60
+[08-Oct-2019 11:36:58 UTC] PHP Parse error:  syntax error, unexpected ''photo'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/kcttuorg/public_html/kcttu_admin/application/controllers/Admin.php on line 60
+[08-Oct-2019 11:36:59 UTC] PHP Parse error:  syntax error, unexpected ''photo'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/kcttuorg/public_html/kcttu_admin/application/controllers/Admin.php on line 60
+[08-Oct-2019 11:40:58 UTC] PHP Parse error:  syntax error, unexpected ''photo'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/kcttuorg/public_html/kcttu_admin/application/controllers/Admin.php on line 60
+[08-Oct-2019 11:40:59 UTC] PHP Parse error:  syntax error, unexpected ''photo'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/kcttuorg/public_html/kcttu_admin/application/controllers/Admin.php on line 60
+[08-Oct-2019 11:47:33 UTC] PHP Fatal error:  Call to a member function insert() on null in /home/kcttuorg/public_html/kcttu_admin/application/controllers/Admin.php on line 60
+[08-Oct-2019 11:56:35 UTC] PHP Fatal error:  Call to a member function insert() on null in /home/kcttuorg/public_html/kcttu_admin/application/controllers/Admin.php on line 60
+[08-Oct-2019 11:58:44 UTC] PHP Fatal error:  Call to a member function insert() on null in /home/kcttuorg/public_html/kcttu_admin/application/controllers/Admin.php on line 12
+[08-Oct-2019 12:02:58 UTC] PHP Fatal error:  Call to undefined function phpdefined() in /home/kcttuorg/public_html/kcttu_admin/application/controllers/Admin.php on line 1
+[08-Oct-2019 12:03:03 UTC] PHP Fatal error:  Call to undefined function phpdefined() in /home/kcttuorg/public_html/kcttu_admin/application/controllers/Admin.php on line 1
+[08-Oct-2019 12:03:04 UTC] PHP Fatal error:  Call to undefined function phpdefined() in /home/kcttuorg/public_html/kcttu_admin/application/controllers/Admin.php on line 1
+[08-Oct-2019 12:03:06 UTC] PHP Fatal error:  Call to undefined function phpdefined() in /home/kcttuorg/public_html/kcttu_admin/application/controllers/Admin.php on line 1
+[08-Oct-2019 12:04:24 UTC] PHP Fatal error:  Call to a member function insert() on null in /home/kcttuorg/public_html/kcttu_admin/application/controllers/Admin.php on line 10
+[08-Oct-2019 12:06:49 UTC] PHP Fatal error:  Call to a member function insert() on null in /home/kcttuorg/public_html/kcttu_admin/application/controllers/Admin.php on line 10
+[08-Oct-2019 12:07:04 UTC] PHP Fatal error:  Call to a member function insert() on null in /home/kcttuorg/public_html/kcttu_admin/application/controllers/Admin.php on line 10
+[08-Oct-2019 12:07:44 UTC] PHP Fatal error:  Call to a member function insert() on null in /home/kcttuorg/public_html/kcttu_admin/application/controllers/Admin.php on line 10
+[09-Oct-2019 05:48:45 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_comm() in /home/kcttuorg/public_html/kcttu_admin/application/controllers/Admin.php on line 17
+[09-Oct-2019 05:48:47 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_comm() in /home/kcttuorg/public_html/kcttu_admin/application/controllers/Admin.php on line 17
+[09-Oct-2019 05:50:46 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_comm() in /home/kcttuorg/public_html/kcttu_admin/application/controllers/Admin.php on line 17
+[09-Oct-2019 06:20:39 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_comm() in /home/kcttuorg/public_html/kcttu_admin/application/controllers/Admin.php on line 17
+[09-Oct-2019 06:20:41 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_comm() in /home/kcttuorg/public_html/kcttu_admin/application/controllers/Admin.php on line 17
+[09-Oct-2019 06:20:42 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_comm() in /home/kcttuorg/public_html/kcttu_admin/application/controllers/Admin.php on line 17
+[09-Oct-2019 06:20:50 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_comm() in /home/kcttuorg/public_html/kcttu_admin/application/controllers/Admin.php on line 17
+[09-Oct-2019 06:20:52 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_comm() in /home/kcttuorg/public_html/kcttu_admin/application/controllers/Admin.php on line 17
+[09-Oct-2019 06:46:43 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/kcttuorg/public_html/kcttu_admin/application/views/common/leftmenu.php on line 419
+[09-Oct-2019 06:46:46 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/kcttuorg/public_html/kcttu_admin/application/views/common/leftmenu.php on line 419
+[09-Oct-2019 06:47:17 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/kcttuorg/public_html/kcttu_admin/application/views/common/leftmenu.php on line 416
+[09-Oct-2019 06:47:20 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/kcttuorg/public_html/kcttu_admin/application/views/common/leftmenu.php on line 416
+[09-Oct-2019 07:06:07 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/kcttuorg/public_html/kcttu_admin/application/views/common/leftmenu.php on line 417
+[09-Oct-2019 07:06:10 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/kcttuorg/public_html/kcttu_admin/application/views/common/leftmenu.php on line 417
+[09-Oct-2019 07:26:55 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_achd_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 251
+[09-Oct-2019 07:27:27 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_achd_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 251
+[09-Oct-2019 07:28:32 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_achd_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 251
+[09-Oct-2019 07:28:39 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_achd_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 251
+[09-Oct-2019 07:29:49 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_achd_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 251
+[09-Oct-2019 07:36:31 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_achd_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 251
+[09-Oct-2019 07:36:59 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_achd_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 251
+[09-Oct-2019 07:37:04 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_achd_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 251
+[09-Oct-2019 07:40:37 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_achd_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 252
+[09-Oct-2019 07:40:46 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_achd_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 252
+[09-Oct-2019 08:24:37 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 333
+[09-Oct-2019 08:25:04 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 333
+[09-Oct-2019 08:27:19 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 262
+[09-Oct-2019 08:27:26 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 262
+[09-Oct-2019 08:28:15 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 262
+[09-Oct-2019 08:28:18 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 262
+[09-Oct-2019 08:28:56 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 262
+[09-Oct-2019 08:29:02 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 262
+[09-Oct-2019 08:31:30 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_com_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 263
+[09-Oct-2019 08:32:02 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_com_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 263
+[09-Oct-2019 08:36:32 UTC] PHP Fatal error:  Call to undefined method Admin_model::agent_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 216
+[09-Oct-2019 08:36:56 UTC] PHP Fatal error:  Call to undefined method Admin_model::agent_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 216
+[09-Oct-2019 08:38:07 UTC] PHP Fatal error:  Call to undefined method Admin_model::agent_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 216
+[09-Oct-2019 08:39:11 UTC] PHP Fatal error:  Call to undefined method Admin_model::agent_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 216
+[09-Oct-2019 08:52:56 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/user_reg.php on line 262
+[09-Oct-2019 08:53:15 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/user_reg.php on line 262
+[09-Oct-2019 08:54:58 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/user_reg.php on line 312
+[09-Oct-2019 08:55:08 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/user_reg.php on line 312
+[09-Oct-2019 09:31:40 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 312
+[09-Oct-2019 09:32:57 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 312
+[09-Oct-2019 09:33:25 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 312
+[09-Oct-2019 09:33:30 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 312
+[09-Oct-2019 09:56:27 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 312
+[09-Oct-2019 09:56:37 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 312
+[09-Oct-2019 10:03:41 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 312
+[09-Oct-2019 10:03:52 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 312
+[09-Oct-2019 10:03:57 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 312
+[09-Oct-2019 10:05:12 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 312
+[09-Oct-2019 10:05:20 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 312
+[09-Oct-2019 10:05:26 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 312
+[09-Oct-2019 10:16:19 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 312
+[09-Oct-2019 10:20:16 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/user_reg.php on line 312
+[09-Oct-2019 10:27:46 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/user_reg.php on line 312
+[09-Oct-2019 10:27:58 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/user_reg.php on line 312
+[09-Oct-2019 10:28:55 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/user_reg.php on line 312
+[09-Oct-2019 10:29:10 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/user_reg.php on line 312
+[09-Oct-2019 10:33:04 UTC] PHP Fatal error:  Call to a member function get_edit_pay_itemtype() on null in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 253
+[09-Oct-2019 10:33:10 UTC] PHP Fatal error:  Call to a member function get_edit_pay_itemtype() on null in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 253
+[09-Oct-2019 10:33:18 UTC] PHP Fatal error:  Call to a member function get_edit_pay_itemtype() on null in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 253
+[09-Oct-2019 10:35:55 UTC] PHP Fatal error:  Call to a member function get_edit_pay_itemtype() on null in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 253
+[09-Oct-2019 10:36:45 UTC] PHP Fatal error:  Call to a member function get_edit_pay_itemtype() on null in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 253
+[09-Oct-2019 10:37:40 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_cat_edit() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/user_reg.php on line 312
+[09-Oct-2019 11:02:59 UTC] PHP Fatal error:  Call to a member function get_edit_pay_itemtype() on null in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 253
+[09-Oct-2019 11:03:29 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_pay_itemtype() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 253
+[09-Oct-2019 11:10:39 UTC] PHP Fatal error:  Call to a member function get_edit_pay_itemtype() on null in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 254
+[09-Oct-2019 11:11:23 UTC] PHP Fatal error:  Call to a member function get_edit_pay_itemtype() on null in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 254
+[09-Oct-2019 11:12:16 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_pay_itemtype() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 253
+[09-Oct-2019 11:20:46 UTC] PHP Fatal error:  Call to a member function get_edit_pay_itemtype() on null in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 177
+[09-Oct-2019 11:37:00 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_pay_itemtype() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 181
+[09-Oct-2019 11:38:04 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_pay_itemtype() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 181
+[09-Oct-2019 11:38:07 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_pay_itemtype() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 181
+[09-Oct-2019 11:38:09 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_pay_itemtype() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 181
+[09-Oct-2019 11:38:09 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_pay_itemtype() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 181
+[09-Oct-2019 11:38:56 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_pay_itemtype() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 181
+[09-Oct-2019 11:38:58 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_pay_itemtype() in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/mem_reg.php on line 181
+[10-Oct-2019 10:05:51 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_user_list() in /home/kcttuorg/public_html/kcttu_admin/application/controllers/Admin.php on line 367
+[11-Oct-2019 05:08:25 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/reg_pending_list.php on line 188
+[11-Oct-2019 05:08:27 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/reg_pending_list.php on line 188
+[11-Oct-2019 05:09:15 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/reg_pending_list.php on line 188
+[11-Oct-2019 05:09:17 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/reg_pending_list.php on line 188
+[11-Oct-2019 05:11:10 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/kcttuorg/public_html/kcttu_admin/application/views/admin/reg_pending_list.php on line 188
+[11-Oct-2019 07:00:17 UTC] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/kcttuorg/public_html/kcttu_admin/application/views/common/leftmenu.php on line 274
+[11-Oct-2019 07:00:31 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/kcttuorg/public_html/kcttu_admin/application/views/common/leftmenu.php on line 274
+[11-Oct-2019 07:00:33 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/kcttuorg/public_html/kcttu_admin/application/views/common/leftmenu.php on line 274
+[11-Oct-2019 07:00:34 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/kcttuorg/public_html/kcttu_admin/application/views/common/leftmenu.php on line 274
+[11-Oct-2019 08:44:32 UTC] PHP Parse error:  syntax error, unexpected 'H' (T_STRING) in /home/kcttuorg/public_html/kcttu_admin/application/controllers/Admin.php on line 361
+[11-Oct-2019 09:17:33 UTC] PHP Parse error:  syntax error, unexpected 'H' (T_STRING) in /home/kcttuorg/public_html/kcttu_admin/application/controllers/Admin.php on line 361
+[11-Oct-2019 09:17:37 UTC] PHP Parse error:  syntax error, unexpected 'H' (T_STRING) in /home/kcttuorg/public_html/kcttu_admin/application/controllers/Admin.php on line 361
+[02-Nov-2019 07:28:48 UTC] PHP Parse error:  syntax error, unexpected 've' (T_STRING) in /home/fudbee/public_html/espy_sys/espy_admin/application/config/config.php on line 33
+[02-Nov-2019 07:28:48 UTC] PHP Parse error:  syntax error, unexpected 've' (T_STRING) in /home/fudbee/public_html/espy_sys/espy_admin/application/config/config.php on line 33
+[12-Nov-2019 10:54:34 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_comm() in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 17
+[12-Nov-2019 10:54:37 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_comm() in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 17
+[13-Nov-2019 10:25:07 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_tbl_member_reg() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/supplier.php on line 199
+[13-Nov-2019 10:25:40 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_tbl_member_reg() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/supplier.php on line 199
+[13-Nov-2019 10:25:59 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_tbl_member_reg() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/supplier.php on line 199
+[13-Nov-2019 10:27:16 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_tbl_member_reg() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/supplier.php on line 199
+[13-Nov-2019 10:28:23 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_tbl_member_reg() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/supplier.php on line 199
+[13-Nov-2019 10:30:20 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_tbl_member_reg() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/supplier.php on line 199
+[13-Nov-2019 10:30:53 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_tbl_member_reg() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/supplier.php on line 199
+[13-Nov-2019 10:35:19 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_tbl_member_reg() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/supplier.php on line 199
+[13-Nov-2019 10:36:17 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_tbl_member_reg() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/supplier.php on line 199
+[13-Nov-2019 10:36:28 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_tbl_member_reg() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/supplier.php on line 199
+[13-Nov-2019 10:42:32 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/supplier.php on line 313
+[13-Nov-2019 10:42:59 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_tbl_member_reg() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/supplier.php on line 199
+[13-Nov-2019 10:44:02 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_tbl_member_reg() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/supplier.php on line 199
+[13-Nov-2019 10:44:49 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_tbl_member_reg() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/supplier.php on line 199
+[13-Nov-2019 10:47:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 232
+[13-Nov-2019 11:35:48 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/supplier.php on line 258
+[13-Nov-2019 12:06:54 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/supplier.php on line 258
+[13-Nov-2019 12:06:59 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/supplier.php on line 258
+[13-Nov-2019 12:21:40 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/supplier.php on line 258
+[13-Nov-2019 12:23:27 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/supplier.php on line 258
+[13-Nov-2019 12:26:00 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/supplier.php on line 258
+[13-Nov-2019 12:26:54 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/supplier.php on line 259
+[14-Nov-2019 05:50:55 UTC] PHP Fatal error:  Cannot redeclare Admin::supplier_creation() in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 305
+[14-Nov-2019 06:09:08 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_tbl_member_reg() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/financial_year.php on line 112
+[14-Nov-2019 07:55:15 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 309
+[14-Nov-2019 08:45:16 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/bank_account.php on line 233
+[14-Nov-2019 11:17:51 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/financial_accountgp.php on line 55
+[14-Nov-2019 12:44:03 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 465
+[14-Nov-2019 12:44:43 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 465
+[14-Nov-2019 12:44:47 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 465
+[14-Nov-2019 12:44:49 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 465
+[15-Nov-2019 05:37:43 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 126
+[15-Nov-2019 05:58:03 UTC] PHP Fatal error:  Call to undefined method Admin_model::faccountgp_edit() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/financial_accountgp.php on line 120
+[15-Nov-2019 05:59:17 UTC] PHP Fatal error:  Call to undefined method Admin_model::faccountgp_edit() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/financial_accountgp.php on line 120
+[15-Nov-2019 05:59:50 UTC] PHP Fatal error:  Call to undefined method Admin_model::faccountgp_edit() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/financial_accountgp.php on line 120
+[15-Nov-2019 06:01:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/financial_accountgp.php on line 244
+[15-Nov-2019 06:09:45 UTC] PHP Fatal error:  Call to undefined method Admin_model::faccountgp_edit() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/financial_accountgp.php on line 120
+[15-Nov-2019 06:13:26 UTC] PHP Fatal error:  Call to undefined method Admin_model::faccountgp_edit() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/financial_accountgp.php on line 120
+[15-Nov-2019 06:14:02 UTC] PHP Fatal error:  Call to undefined method Admin_model::faccountgp_edit() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/financial_accountgp.php on line 120
+[15-Nov-2019 06:17:51 UTC] PHP Fatal error:  Call to undefined method Admin_model::faccountgp_edit() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/financial_accountgp.php on line 120
+[15-Nov-2019 06:17:57 UTC] PHP Fatal error:  Call to undefined method Admin_model::faccountgp_edit() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/financial_accountgp.php on line 120
+[15-Nov-2019 06:19:26 UTC] PHP Fatal error:  Call to undefined method Admin_model::faccountgp_edit() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/financial_accountgp.php on line 120
+[15-Nov-2019 10:52:17 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 153
+[15-Nov-2019 10:57:52 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_tbl_member_reg() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/branch_register.php on line 176
+[15-Nov-2019 10:58:00 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_tbl_member_reg() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/branch_register.php on line 176
+[15-Nov-2019 10:59:00 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_tbl_member_reg() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/branch_register.php on line 183
+[15-Nov-2019 10:59:29 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_tbl_member_reg() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/branch_register.php on line 183
+[15-Nov-2019 10:59:35 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_tbl_member_reg() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/branch_register.php on line 183
+[15-Nov-2019 13:11:54 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_tbl_member_reg() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/staff.php on line 243
+[16-Nov-2019 04:53:38 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_edit_tbl_member_reg() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/staff.php on line 243
+[16-Nov-2019 06:10:35 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 242
+[16-Nov-2019 06:10:57 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 242
+[16-Nov-2019 06:32:42 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 235
+[16-Nov-2019 06:40:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 69
+[16-Nov-2019 06:52:06 UTC] PHP Parse error:  syntax error, unexpected ''cus_address_purpose'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 238
+[16-Nov-2019 11:22:17 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 137
+[16-Nov-2019 11:22:19 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 137
+[16-Nov-2019 11:24:15 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 134
+[16-Nov-2019 11:24:17 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 134
+[18-Nov-2019 05:59:03 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 230
+[18-Nov-2019 05:59:05 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 230
+[18-Nov-2019 06:09:32 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 932
+[18-Nov-2019 06:09:34 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 932
+[18-Nov-2019 07:32:26 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/item.php on line 245
+[18-Nov-2019 07:32:28 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/item.php on line 245
+[18-Nov-2019 07:42:12 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 223
+[19-Nov-2019 10:34:11 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 896
+[19-Nov-2019 10:34:14 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 896
+[21-Nov-2019 05:57:11 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/item.php on line 344
+[25-Nov-2019 09:18:12 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1001
+[25-Nov-2019 09:18:14 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1001
+[25-Nov-2019 09:18:56 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_supliernewadd() in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1003
+[25-Nov-2019 09:54:05 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::inser_id() in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1010
+[25-Nov-2019 09:57:02 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::inser_id() in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1010
+[25-Nov-2019 09:59:04 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::inser_id() in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1010
+[25-Nov-2019 10:11:25 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 366
+[25-Nov-2019 10:11:27 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 366
+[25-Nov-2019 10:36:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/config/routes.php on line 52
+[25-Nov-2019 10:36:29 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/config/routes.php on line 52
+[25-Nov-2019 10:40:17 UTC] PHP Parse error:  syntax error, unexpected 'this' (T_STRING), expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1025
+[25-Nov-2019 10:40:19 UTC] PHP Parse error:  syntax error, unexpected 'this' (T_STRING), expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1025
+[25-Nov-2019 10:48:25 UTC] PHP Fatal error:  Call to a member function result() on null in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 369
+[25-Nov-2019 10:48:27 UTC] PHP Fatal error:  Call to a member function result() on null in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 369
+[25-Nov-2019 11:38:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/config/routes.php on line 53
+[25-Nov-2019 11:38:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/config/routes.php on line 53
+[25-Nov-2019 11:38:57 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/itemcategory.php on line 50
+[25-Nov-2019 11:38:59 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/itemcategory.php on line 50
+[25-Nov-2019 11:40:37 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/itemcategory.php on line 50
+[25-Nov-2019 11:40:48 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/itemcategory.php on line 50
+[25-Nov-2019 11:41:11 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/itemcategory.php on line 50
+[25-Nov-2019 11:41:13 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/itemcategory.php on line 50
+[25-Nov-2019 11:42:07 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/itemcategory.php on line 50
+[26-Nov-2019 07:28:30 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 380
+[28-Nov-2019 06:57:35 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/staff.php on line 1018
+[28-Nov-2019 06:57:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/staff.php on line 1018
+[28-Nov-2019 06:57:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/staff.php on line 1018
+[28-Nov-2019 14:03:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/branch_register.php on line 371
+[29-Nov-2019 06:54:41 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/staff.php on line 314
+[29-Nov-2019 06:54:43 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/staff.php on line 314
+[30-Nov-2019 07:53:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1151
+[01-Dec-2019 15:19:31 UTC] PHP Fatal error:  Cannot redeclare Admin_model::get_item() in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 433
+[03-Dec-2019 10:19:03 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1194
+[03-Dec-2019 10:19:04 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1194
+[03-Dec-2019 10:27:24 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1193
+[03-Dec-2019 10:32:09 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1197
+[03-Dec-2019 10:32:11 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1197
+[03-Dec-2019 10:34:24 UTC] PHP Parse error:  syntax error, unexpected ''" id="id_SCR" ></div>'' (T_CONSTANT_ENCAPSED_STRING) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1194
+[03-Dec-2019 10:34:26 UTC] PHP Parse error:  syntax error, unexpected ''" id="id_SCR" ></div>'' (T_CONSTANT_ENCAPSED_STRING) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1194
+[03-Dec-2019 10:34:28 UTC] PHP Parse error:  syntax error, unexpected ''" id="id_SCR" ></div>'' (T_CONSTANT_ENCAPSED_STRING) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1194
+[03-Dec-2019 10:35:51 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1196
+[03-Dec-2019 10:35:53 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1196
+[15-Dec-2019 10:06:07 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1605
+[15-Dec-2019 11:49:24 UTC] PHP Fatal error:  Call to undefined method Admin_model::getalltable() in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1159
+[15-Dec-2019 12:50:53 UTC] PHP Fatal error:  Call to undefined method Admin_model::getalltablegroup() in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1160
+[18-Dec-2019 11:08:32 UTC] PHP Parse error:  syntax error, unexpected 'Object' (T_STRING), expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1166
+[18-Dec-2019 11:16:07 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/saleswindow.php on line 58
+[18-Dec-2019 11:16:09 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/saleswindow.php on line 58
+[18-Dec-2019 11:16:11 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/saleswindow.php on line 58
+[18-Dec-2019 11:17:09 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/saleswindow.php on line 58
+[18-Dec-2019 11:17:11 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/saleswindow.php on line 58
+[18-Dec-2019 11:17:13 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/saleswindow.php on line 58
+[18-Dec-2019 11:17:15 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/saleswindow.php on line 58
+[18-Dec-2019 11:17:45 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/saleswindow.php on line 58
+[18-Dec-2019 11:17:48 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/saleswindow.php on line 58
+[19-Dec-2019 02:20:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/purchaserate.php on line 1105
+[21-Dec-2019 09:50:48 UTC] PHP Fatal error:  Cannot redeclare Admin_model::get_automaticbillpur() in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 550
+[21-Dec-2019 09:50:50 UTC] PHP Fatal error:  Cannot redeclare Admin_model::get_automaticbillpur() in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 550
+[21-Dec-2019 11:31:32 UTC] PHP Fatal error:  Call to a member function select() on null in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 596
+[21-Dec-2019 11:31:34 UTC] PHP Fatal error:  Call to a member function select() on null in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 602
+[22-Dec-2019 04:24:47 UTC] PHP Fatal error:  Call to a member function select() on null in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 596
+[22-Dec-2019 04:24:51 UTC] PHP Fatal error:  Call to a member function select() on null in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 602
+[22-Dec-2019 04:33:18 UTC] PHP Fatal error:  Call to a member function select() on null in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 596
+[22-Dec-2019 04:37:32 UTC] PHP Fatal error:  Call to a member function select() on null in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 596
+[22-Dec-2019 04:38:44 UTC] PHP Fatal error:  Call to a member function select() on null in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 602
+[22-Dec-2019 04:39:57 UTC] PHP Fatal error:  Call to a member function select() on null in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 602
+[22-Dec-2019 04:42:23 UTC] PHP Fatal error:  Call to a member function select() on null in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 602
+[22-Dec-2019 04:43:54 UTC] PHP Fatal error:  Call to a member function select() on null in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 602
+[22-Dec-2019 04:45:25 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1149
+[22-Dec-2019 05:07:21 UTC] PHP Fatal error:  Call to a member function select() on null in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 596
+[22-Dec-2019 05:08:34 UTC] PHP Fatal error:  Call to a member function select() on null in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 596
+[22-Dec-2019 05:08:50 UTC] PHP Fatal error:  Call to a member function select() on null in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 596
+[22-Dec-2019 05:13:17 UTC] PHP Fatal error:  Call to a member function select() on null in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 596
+[22-Dec-2019 08:50:58 UTC] PHP Parse error:  syntax error, unexpected ''billing_master_billdate'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1498
+[22-Dec-2019 08:51:00 UTC] PHP Parse error:  syntax error, unexpected ''billing_master_billdate'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1498
+[23-Dec-2019 03:50:52 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 634
+[23-Dec-2019 03:50:54 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 634
+[23-Dec-2019 04:11:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/resceiptandpay.php on line 408
+[23-Dec-2019 04:11:49 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/resceiptandpay.php on line 408
+[25-Dec-2019 07:49:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 874
+[26-Dec-2019 05:21:05 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1166
+[26-Dec-2019 05:22:17 UTC] PHP Parse error:  syntax error, unexpected ''totalTaxable' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1596
+[26-Dec-2019 05:23:11 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1166
+[26-Dec-2019 05:27:31 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1168
+[26-Dec-2019 05:27:33 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1168
+[26-Dec-2019 05:30:24 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1168
+[26-Dec-2019 05:30:52 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1168
+[26-Dec-2019 05:30:54 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1168
+[26-Dec-2019 05:33:24 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1168
+[26-Dec-2019 05:33:41 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1168
+[26-Dec-2019 05:37:05 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1168
+[26-Dec-2019 05:43:54 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1170
+[18-Jan-2020 04:25:50 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/saleswindow.php on line 516
+[18-Jan-2020 04:26:35 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/saleswindow.php on line 516
+[18-Jan-2020 04:27:02 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/saleswindow.php on line 516
+[18-Jan-2020 04:27:22 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/saleswindow.php on line 516
+[18-Jan-2020 05:17:21 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 654
+[21-Jan-2020 10:49:44 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 666
+[21-Jan-2020 10:49:46 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 666
+[25-Jan-2020 06:50:34 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 426
+[25-Jan-2020 06:50:35 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 426
+[25-Jan-2020 06:50:37 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 426
+[25-Jan-2020 06:50:37 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 426
+[25-Jan-2020 06:50:39 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 426
+[25-Jan-2020 06:50:39 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 426
+[25-Jan-2020 06:50:41 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 426
+[25-Jan-2020 06:50:42 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 426
+[25-Jan-2020 06:50:43 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 426
+[25-Jan-2020 06:50:43 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 426
+[25-Jan-2020 06:50:44 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 426
+[18-Feb-2020 07:57:14 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 520
+[02-Sep-2020 09:08:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/views/common/leftmenu.php on line 227
+[08-Sep-2020 11:45:08 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/salesreturn.php on line 797
+[16-Oct-2020 08:36:25 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 1157
+[17-Oct-2020 06:30:59 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 1157
+[17-Oct-2020 17:14:20 UTC] PHP Fatal error:  Call to a member function post() on null in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1898
+[19-Oct-2020 17:44:07 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 2684
+[19-Oct-2020 17:58:16 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1439
+[20-Oct-2020 19:28:53 UTC] PHP Parse error:  syntax error, unexpected ''profession_coun' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 160
+[21-Oct-2020 09:29:46 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/saleswindow_edit.php on line 13
+[21-Oct-2020 16:17:22 UTC] PHP Parse error:  syntax error, unexpected 'for' (T_FOR), expecting function (T_FUNCTION) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1659
+[21-Oct-2020 16:19:29 UTC] PHP Parse error:  syntax error, unexpected '$dataCurrentstock' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1665
+[21-Oct-2020 23:09:44 Asia/Kolkata] PHP Fatal error:  Call to undefined method Admin_model::getstockwhereresult() in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1644
+[21-Oct-2020 23:11:23 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1648
+[21-Oct-2020 17:51:02 UTC] PHP Parse error:  syntax error, unexpected '$salestrans' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1129
+[06-Nov-2020 05:42:46 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or '$' in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 78
+[07-Nov-2020 14:32:50 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting function (T_FUNCTION) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1432
+[07-Nov-2020 14:32:56 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting function (T_FUNCTION) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1432
+[07-Nov-2020 14:40:13 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 2441
+[09-Nov-2020 15:31:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/views/common/leftmenu.php on line 641
+[12-Nov-2020 16:29:16 UTC] PHP Parse error:  syntax error, unexpected ''m' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 124
+[14-Nov-2020 09:36:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 50
+[14-Nov-2020 09:50:35 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 366
+[14-Nov-2020 09:51:25 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 366
+[16-Nov-2020 11:02:34 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 41
+[16-Nov-2020 11:30:07 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_paymentfullreport() in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 3306
+[16-Nov-2020 11:32:00 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::orwhere() in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 1047
+[16-Nov-2020 11:32:02 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::orwhere() in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 1047
+[19-Nov-2020 11:31:45 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 752
+[19-Nov-2020 15:39:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/bank_paymentslist.php on line 631
+[19-Nov-2020 15:39:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/bank_paymentslist.php on line 631
+[27-Nov-2020 06:57:21 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 31
+[27-Nov-2020 07:09:29 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 31
+[27-Nov-2020 07:09:33 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 31
+[27-Nov-2020 09:44:53 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/batchedit.php on line 12
+[27-Nov-2020 09:46:11 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/batchedit.php on line 12
+[27-Nov-2020 09:46:56 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/batchedit.php on line 12
+[27-Nov-2020 09:47:53 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/batchedit.php on line 12
+[27-Nov-2020 09:50:10 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/batchedit.php on line 12
+[27-Nov-2020 09:50:14 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/batchedit.php on line 12
+[27-Nov-2020 09:50:51 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/batchedit.php on line 12
+[27-Nov-2020 09:58:16 UTC] PHP Fatal error:  Call to a member function row() on array in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 51
+[27-Nov-2020 09:59:08 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting '(' in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 91
+[27-Nov-2020 11:55:10 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 292
+[27-Nov-2020 11:57:09 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 318
+[27-Nov-2020 11:57:19 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 318
+[27-Nov-2020 11:58:23 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 294
+[27-Nov-2020 11:58:42 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 294
+[27-Nov-2020 12:21:17 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 676
+[27-Nov-2020 16:18:47 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 626
+[27-Nov-2020 19:05:23 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 302
+[28-Nov-2020 18:13:21 UTC] PHP Parse error:  syntax error, unexpected ''m' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 124
+[28-Nov-2020 18:13:33 UTC] PHP Parse error:  syntax error, unexpected ''m' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 124
+[29-Nov-2020 06:50:56 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 76
+[29-Nov-2020 07:06:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 2788
+[29-Nov-2020 07:06:26 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or '$' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 4132
+[29-Nov-2020 08:06:26 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 351
+[29-Nov-2020 08:27:15 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 362
+[29-Nov-2020 08:27:17 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 362
+[29-Nov-2020 12:27:22 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 41
+[30-Nov-2020 06:44:33 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 400
+[30-Nov-2020 06:44:35 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 400
+[02-Dec-2020 16:15:05 UTC] PHP Parse error:  syntax error, unexpected ''oprefnum'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 2912
+[02-Dec-2020 16:16:00 UTC] PHP Parse error:  syntax error, unexpected ''oprefnum'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 2912
+[02-Dec-2020 16:16:06 UTC] PHP Parse error:  syntax error, unexpected ''oprefnum'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 2912
+[03-Dec-2020 16:37:31 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 4467
+[03-Dec-2020 16:56:22 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 4471
+[03-Dec-2020 17:24:12 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 4477
+[04-Dec-2020 03:59:27 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 34
+[04-Dec-2020 07:47:07 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 887
+[04-Dec-2020 07:47:09 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 887
+[04-Dec-2020 08:01:39 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 895
+[04-Dec-2020 08:01:41 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 895
+[04-Dec-2020 13:51:27 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 4524
+[04-Dec-2020 13:52:04 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_incentivedata_by_id() in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 4523
+[04-Dec-2020 13:53:48 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_incentivedata_by_id() in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 4523
+[04-Dec-2020 13:55:04 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_incentivedata_by_id() in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 4523
+[04-Dec-2020 13:57:45 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_incentivedata_by_id() in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 4523
+[04-Dec-2020 13:57:56 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_incentivedata_by_id() in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 4523
+[04-Dec-2020 14:01:49 UTC] PHP Fatal error:  Call to a member function select() on null in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 1646
+[04-Dec-2020 14:36:12 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/batchview.php on line 51
+[04-Dec-2020 16:36:46 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/config/routes.php on line 138
+[04-Dec-2020 17:43:07 UTC] PHP Fatal error:  Call to undefined function select() in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 1661
+[05-Dec-2020 12:02:40 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting '(' in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 86
+[05-Dec-2020 12:02:42 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting '(' in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 86
+[05-Dec-2020 13:06:10 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1344
+[05-Dec-2020 13:06:12 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1344
+[05-Dec-2020 13:06:13 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1344
+[05-Dec-2020 13:19:46 UTC] PHP Fatal error:  Cannot redeclare Admin_model::get_inventoryitemlist() in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 1524
+[05-Dec-2020 13:19:48 UTC] PHP Fatal error:  Cannot redeclare Admin_model::get_inventoryitemlist() in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 1524
+[05-Dec-2020 13:20:21 UTC] PHP Fatal error:  Cannot redeclare Admin_model::get_inventoryitemlist() in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 1524
+[05-Dec-2020 13:20:23 UTC] PHP Fatal error:  Cannot redeclare Admin_model::get_inventoryitemlist() in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 1524
+[05-Dec-2020 13:20:24 UTC] PHP Fatal error:  Cannot redeclare Admin_model::get_inventoryitemlist() in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 1524
+[05-Dec-2020 13:20:25 UTC] PHP Fatal error:  Cannot redeclare Admin_model::get_inventoryitemlist() in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 1524
+[05-Dec-2020 13:20:41 UTC] PHP Fatal error:  Cannot redeclare Admin_model::get_inventoryitemlist() in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 1524
+[05-Dec-2020 13:20:43 UTC] PHP Fatal error:  Cannot redeclare Admin_model::get_inventoryitemlist() in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 1524
+[05-Dec-2020 13:20:44 UTC] PHP Fatal error:  Cannot redeclare Admin_model::get_inventoryitemlist() in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 1524
+[05-Dec-2020 13:20:48 UTC] PHP Fatal error:  Cannot redeclare Admin_model::get_inventoryitemlist() in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 1524
+[05-Dec-2020 13:23:17 UTC] PHP Warning:  Unterminated comment starting line 66 in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 66
+[05-Dec-2020 13:23:17 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 84
+[05-Dec-2020 13:23:19 UTC] PHP Warning:  Unterminated comment starting line 66 in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 66
+[05-Dec-2020 13:23:19 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 84
+[05-Dec-2020 13:24:03 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 2478
+[05-Dec-2020 14:19:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 713
+[05-Dec-2020 14:19:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 713
+[05-Dec-2020 14:19:32 UTC] PHP Parse error:  syntax error, unexpected ''tbl_item.itm_name, tbl_item.i' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 45
+[05-Dec-2020 14:19:35 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 315
+[05-Dec-2020 14:19:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 315
+[05-Dec-2020 15:51:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 2476
+[05-Dec-2020 16:27:31 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1315
+[05-Dec-2020 16:27:33 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1315
+[05-Dec-2020 16:27:49 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1315
+[05-Dec-2020 16:27:51 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1315
+[05-Dec-2020 16:27:52 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1315
+[05-Dec-2020 18:07:08 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 769
+[05-Dec-2020 18:53:27 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::orwhere() in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 952
+[05-Dec-2020 18:58:08 UTC] PHP Parse error:  syntax error, unexpected '$suplierid' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/supplier_accounts.php on line 115
+[05-Dec-2020 18:58:11 UTC] PHP Parse error:  syntax error, unexpected '$suplierid' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/supplier_accounts.php on line 115
+[09-Dec-2020 08:57:49 UTC] PHP Fatal error:  Call to a member function draw() on null in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 804
+[09-Dec-2020 08:59:45 UTC] PHP Fatal error:  Call to a member function draw() on null in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 804
+[09-Dec-2020 10:16:50 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 276
+[11-Dec-2020 08:41:34 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 802
+[11-Dec-2020 08:55:41 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 802
+[11-Dec-2020 14:44:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1222
+[11-Dec-2020 14:58:48 UTC] PHP Parse error:  syntax error, unexpected ''inventory_s' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 4142
+[11-Dec-2020 15:01:50 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 41
+[11-Dec-2020 15:01:54 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 41
+[11-Dec-2020 15:12:27 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 737
+[11-Dec-2020 15:12:48 UTC] PHP Fatal error:  Call to undefined function stringToArray() in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 735
+[11-Dec-2020 15:37:58 UTC] PHP Parse error:  syntax error, unexpected ''' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1218
+[14-Dec-2020 13:18:32 UTC] PHP Parse error:  syntax error, unexpected ''branch_name' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 427
+[14-Dec-2020 13:18:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 690
+[14-Dec-2020 13:19:06 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or '$' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 588
+[14-Dec-2020 13:19:41 UTC] PHP Parse error:  syntax error, unexpected ''stf_bname' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 352
+[14-Dec-2020 13:20:55 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 2531
+[14-Dec-2020 13:20:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 2531
+[14-Dec-2020 13:22:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 2531
+[14-Dec-2020 14:36:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 45
+[14-Dec-2020 14:40:22 UTC] PHP Warning:  Unterminated comment starting line 66 in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 66
+[14-Dec-2020 14:40:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 84
+[14-Dec-2020 14:40:24 UTC] PHP Warning:  Unterminated comment starting line 66 in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 66
+[14-Dec-2020 14:40:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 84
+[15-Dec-2020 09:51:06 UTC] PHP Fatal error:  Call to undefined function alert() in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 660
+[15-Dec-2020 16:17:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/b2cprofit_lossreport.php on line 123
+[15-Dec-2020 17:36:01 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_salesbill_wise_details_btoc() in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 3841
+[15-Dec-2020 17:38:50 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_salesbill_wise_details_btoc() in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 3842
+[15-Dec-2020 17:48:54 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/b2cbillwise.php on line 178
+[16-Dec-2020 03:01:34 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 314
+[16-Dec-2020 03:19:20 UTC] PHP Warning:  Unterminated comment starting line 66 in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 66
+[16-Dec-2020 03:19:20 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 84
+[16-Dec-2020 03:19:22 UTC] PHP Warning:  Unterminated comment starting line 66 in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 66
+[16-Dec-2020 03:19:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 84
+[16-Dec-2020 04:16:12 UTC] PHP Fatal error:  Cannot redeclare Admin_model::get_salesgstwise_details_btocchange() in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 1977
+[16-Dec-2020 09:05:56 UTC] PHP Parse error:  syntax error, unexpected ''inventory_trans_qty'=>$itemqt' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 4225
+[16-Dec-2020 13:03:52 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1419
+[16-Dec-2020 13:45:35 UTC] PHP Parse error:  syntax error, unexpected '($this->input->post('to'), $i' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 4422
+[17-Dec-2020 15:26:58 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 41
+[17-Dec-2020 17:22:59 UTC] PHP Parse error:  syntax error, unexpected ''profession_coun' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 160
+[17-Dec-2020 17:45:57 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1456
+[19-Dec-2020 04:49:00 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_employees() in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 5082
+[19-Dec-2020 04:50:14 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_employeewise() in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 5083
+[20-Dec-2020 04:53:15 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or '$' in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/daybook.php on line 223
+[20-Dec-2020 05:07:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/cashbook.php on line 494
+[20-Dec-2020 05:08:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/cashbook.php on line 494
+[20-Dec-2020 06:29:52 UTC] PHP Parse error:  syntax error, unexpected ''m' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 124
+[20-Dec-2020 06:43:25 UTC] PHP Parse error:  syntax error, unexpected '='';' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 3669
+[21-Dec-2020 04:04:57 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/salesorderreport.php on line 86
+[22-Dec-2020 16:56:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 316
+[22-Dec-2020 17:48:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 56
+[22-Dec-2020 17:48:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 56
+[22-Dec-2020 17:48:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 56
+[22-Dec-2020 17:49:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 56
+[22-Dec-2020 17:49:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 56
+[22-Dec-2020 17:49:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 56
+[22-Dec-2020 17:49:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 56
+[22-Dec-2020 17:49:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 56
+[22-Dec-2020 18:00:35 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 56
+[31-Dec-2020 15:06:52 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 41
+[01-Jan-2021 16:09:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 201
+[02-Jan-2021 07:38:47 UTC] PHP Parse error:  syntax error, unexpected ''m' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 392
+[02-Jan-2021 07:42:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 2562
+[03-Jan-2021 15:04:58 UTC] PHP Fatal error:  Call to undefined function dateFormat() in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/salesreport.php on line 64
+[05-Jan-2021 07:28:37 UTC] PHP Parse error:  syntax error, unexpected ''">' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1228
+[05-Jan-2021 16:43:01 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 5347
+[15-Jan-2021 05:28:07 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 44
+[15-Jan-2021 05:28:09 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 44
+[15-Jan-2021 05:28:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 112
+[15-Jan-2021 05:28:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 112
+[15-Jan-2021 11:40:34 Asia/Kolkata] PHP Fatal error:  Cannot access empty property in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 2503
+[15-Jan-2021 17:07:46 UTC] PHP Parse error:  syntax error, unexpected ''m' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 124
+[16-Jan-2021 06:58:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/viesales_reports_list.php on line 238
+[16-Jan-2021 06:58:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/viesales_reports_list.php on line 238
+[16-Jan-2021 06:59:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/viesales_reports_list.php on line 273
+[16-Jan-2021 07:06:49 UTC] PHP Fatal error:  Call to a member function where() on null in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 926
+[16-Jan-2021 07:08:15 UTC] PHP Parse error:  syntax error, unexpected ''" readonly="readonly">' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1237
+[16-Jan-2021 07:12:09 UTC] PHP Fatal error:  Call to a member function where() on null in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 926
+[16-Jan-2021 07:21:26 UTC] PHP Parse error:  syntax error, unexpected ''" readonly="readonly">' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1237
+[16-Jan-2021 07:57:42 UTC] PHP Fatal error:  Call to undefined method Admin_model::searchaccountgroup() in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 2327
+[16-Jan-2021 07:58:33 UTC] PHP Fatal error:  Call to undefined method Admin_model::searchaccountgroup() in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 2327
+[16-Jan-2021 09:38:36 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 41
+[16-Jan-2021 09:38:59 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 41
+[16-Jan-2021 09:39:44 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 41
+[16-Jan-2021 09:39:50 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 41
+[16-Jan-2021 09:39:52 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 41
+[16-Jan-2021 09:51:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 2587
+[16-Jan-2021 11:46:39 UTC] PHP Parse error:  syntax error, unexpected ''m' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 392
+[18-Jan-2021 05:44:48 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 41
+[18-Jan-2021 05:44:50 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 41
+[18-Jan-2021 05:44:51 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 41
+[18-Jan-2021 05:44:59 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 41
+[18-Jan-2021 05:52:20 UTC] PHP Parse error:  syntax error, unexpected ''" readonly="readonly">' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1253
+[18-Jan-2021 07:57:17 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1874
+[18-Jan-2021 07:57:19 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1874
+[18-Jan-2021 07:57:46 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1874
+[18-Jan-2021 07:57:48 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1874
+[18-Jan-2021 07:57:50 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1874
+[18-Jan-2021 07:58:31 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 41
+[18-Jan-2021 07:58:33 UTC] PHP Parse error:  syntax error, unexpected ''m' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 124
+[18-Jan-2021 09:59:00 UTC] PHP Warning:  Unterminated comment starting line 66 in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 66
+[18-Jan-2021 09:59:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 84
+[18-Jan-2021 10:40:03 UTC] PHP Parse error:  syntax error, unexpected ''sales_' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 2635
+[18-Jan-2021 11:02:53 UTC] PHP Parse error:  syntax error, unexpected ''cust' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 279
+[18-Jan-2021 12:57:54 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 201
+[18-Jan-2021 15:02:19 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1580
+[18-Jan-2021 15:21:59 UTC] PHP Parse error:  syntax error, unexpected ''tb' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 47
+[18-Jan-2021 15:22:00 UTC] PHP Parse error:  syntax error, unexpected ''tb' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 47
+[18-Jan-2021 15:22:02 UTC] PHP Parse error:  syntax error, unexpected ''tb' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 47
+[18-Jan-2021 15:22:03 UTC] PHP Parse error:  syntax error, unexpected ''tb' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 47
+[18-Jan-2021 15:22:04 UTC] PHP Parse error:  syntax error, unexpected ''tb' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 47
+[18-Jan-2021 15:22:05 UTC] PHP Parse error:  syntax error, unexpected ''tb' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 47
+[18-Jan-2021 15:22:05 UTC] PHP Parse error:  syntax error, unexpected ''tb' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 47
+[18-Jan-2021 15:22:06 UTC] PHP Parse error:  syntax error, unexpected ''tb' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 47
+[18-Jan-2021 15:22:06 UTC] PHP Parse error:  syntax error, unexpected ''tb' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 47
+[18-Jan-2021 15:22:06 UTC] PHP Parse error:  syntax error, unexpected ''tb' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 47
+[18-Jan-2021 15:22:10 UTC] PHP Parse error:  syntax error, unexpected ''tb' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 47
+[18-Jan-2021 15:22:11 UTC] PHP Parse error:  syntax error, unexpected ''tb' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 47
+[18-Jan-2021 15:22:12 UTC] PHP Parse error:  syntax error, unexpected ''tb' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 47
+[18-Jan-2021 15:22:16 UTC] PHP Parse error:  syntax error, unexpected ''tb' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 47
+[18-Jan-2021 15:22:26 UTC] PHP Parse error:  syntax error, unexpected ''profession_coun' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 160
+[18-Jan-2021 15:22:33 UTC] PHP Parse error:  syntax error, unexpected ''profession_coun' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 160
+[18-Jan-2021 15:22:58 UTC] PHP Parse error:  syntax error, unexpected ''tb' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 47
+[18-Jan-2021 15:23:00 UTC] PHP Parse error:  syntax error, unexpected ''tb' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 47
+[18-Jan-2021 15:23:01 UTC] PHP Parse error:  syntax error, unexpected ''tb' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 47
+[18-Jan-2021 15:23:02 UTC] PHP Parse error:  syntax error, unexpected ''tb' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 47
+[18-Jan-2021 15:23:12 UTC] PHP Parse error:  syntax error, unexpected ''tb' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 47
+[18-Jan-2021 15:23:14 UTC] PHP Parse error:  syntax error, unexpected ''tb' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 47
+[18-Jan-2021 15:58:30 UTC] PHP Parse error:  syntax error, unexpected ''" readonly="readonly">' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1253
+[18-Jan-2021 16:00:32 UTC] PHP Parse error:  syntax error, unexpected ''last_bi' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 5205
+[19-Jan-2021 05:43:08 UTC] PHP Parse error:  syntax error, unexpected ''sales_master_' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 2642
+[19-Jan-2021 06:18:11 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 41
+[19-Jan-2021 06:18:13 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 41
+[19-Jan-2021 11:18:03 UTC] PHP Parse error:  syntax error, unexpected '->Adm' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 2494
+[19-Jan-2021 11:59:51 UTC] PHP Parse error:  syntax error, unexpected ''fyear' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 4971
+[19-Jan-2021 12:34:51 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/b2b.php on line 70
+[19-Jan-2021 12:34:55 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/b2b.php on line 70
+[19-Jan-2021 12:36:42 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/b2b.php on line 70
+[19-Jan-2021 12:41:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1252
+[20-Jan-2021 06:55:56 UTC] PHP Parse error:  syntax error, unexpected ''profession_coun' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 160
+[20-Jan-2021 06:56:03 UTC] PHP Parse error:  syntax error, unexpected ''profession_coun' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 160
+[20-Jan-2021 06:56:05 UTC] PHP Parse error:  syntax error, unexpected ''profession_coun' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 160
+[20-Jan-2021 07:09:21 UTC] PHP Parse error:  syntax error, unexpected ''pos' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 430
+[20-Jan-2021 07:09:23 UTC] PHP Parse error:  syntax error, unexpected ''pos' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 430
+[20-Jan-2021 07:09:25 UTC] PHP Parse error:  syntax error, unexpected ''pos' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 430
+[20-Jan-2021 10:02:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1252
+[20-Jan-2021 10:05:38 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_branchlistaddress() in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 6255
+[20-Jan-2021 13:34:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/views/superadmin/delivery_chellan.php on line 93
+[20-Jan-2021 13:49:32 UTC] PHP Parse error:  syntax error, unexpected ''m' (T_ENCAPSED_AND_WHITESPACE) in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 124
+[21-Jan-2021 06:04:19 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 5651
+[21-Jan-2021 06:04:27 UTC] PHP Parse error:  syntax error, unexpected '($id){', expecting '(' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1209
+[21-Jan-2021 06:04:28 UTC] PHP Parse error:  syntax error, unexpected ''finance'=>$this->input->post(' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 6238
+[21-Jan-2021 07:16:34 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 5782
+[21-Jan-2021 07:16:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 5440
+[21-Jan-2021 07:45:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 1252
+[21-Jan-2021 10:00:37 UTC] PHP Warning:  Unterminated comment starting line 66 in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 66
+[21-Jan-2021 10:00:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 84
+[21-Jan-2021 10:00:50 UTC] PHP Warning:  Unterminated comment starting line 66 in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 66
+[21-Jan-2021 10:00:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 84
+[21-Jan-2021 10:00:52 UTC] PHP Warning:  Unterminated comment starting line 66 in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 66
+[21-Jan-2021 10:00:52 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 84
+[21-Jan-2021 10:00:53 UTC] PHP Warning:  Unterminated comment starting line 66 in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 66
+[21-Jan-2021 10:00:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 84
+[21-Jan-2021 10:00:54 UTC] PHP Warning:  Unterminated comment starting line 66 in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 66
+[21-Jan-2021 10:00:54 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 84
+[21-Jan-2021 10:00:56 UTC] PHP Warning:  Unterminated comment starting line 66 in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 66
+[21-Jan-2021 10:00:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 84
+[21-Jan-2021 10:01:06 UTC] PHP Warning:  Unterminated comment starting line 66 in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 66
+[21-Jan-2021 10:01:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 84
+[21-Jan-2021 10:01:07 UTC] PHP Warning:  Unterminated comment starting line 66 in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 66
+[21-Jan-2021 10:01:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 84
+[21-Jan-2021 10:01:18 UTC] PHP Warning:  Unterminated comment starting line 66 in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 66
+[21-Jan-2021 10:01:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 84
+[24-Jan-2021 17:59:09 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_creditb2c() in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 4876
+[25-Jan-2021 16:47:31 UTC] PHP Fatal error:  Call to undefined method Admin_model::get_supplierwisedetailed() in /home/fudbee/public_html/mayoori_sw/application/controllers/AdminController.php on line 122
+[27-Jan-2021 16:39:57 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 41
+[27-Jan-2021 16:39:59 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 41
+[28-Jan-2021 14:56:33 UTC] PHP Fatal error:  Call to undefined method Newadminmodel::get_purchasereturnbill_no() in /home/fudbee/public_html/mayoori_sw/application/controllers/AdminController.php on line 16
+[29-Jan-2021 14:20:30 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[29-Jan-2021 14:20:45 UTC] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[29-Jan-2021 16:34:34 UTC] PHP Parse error:  syntax error, unexpected ''max_size' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 239
+[29-Jan-2021 16:34:38 UTC] PHP Parse error:  syntax error, unexpected ''max_size' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/fudbee/public_html/mayoori_sw/application/controllers/Admin.php on line 239
+[29-Jan-2021 16:49:30 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 336
+[29-Jan-2021 16:49:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/fudbee/public_html/mayoori_sw/application/models/Admin_model.php on line 336
