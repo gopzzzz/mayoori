@@ -43,6 +43,52 @@ input::-webkit-inner-spin-button {
 }
 </style>
 
+/* Mayoori Furnitures - Sales Billing Window UI refresh (presentation only) */
+<style id="sales-window-modern-ui">
+.content-wrapper { background:#f2f6fc; }
+.content-header h1 { color:#173b65; font-weight:600; }
+.content > .row > .col-xs-12 > .box { border-top:0; border-radius:10px; box-shadow:0 5px 22px rgba(26,65,110,.10); overflow:visible; background:#fff; }
+#myFormId > .modal-content { border:1px solid #d7e4f2; border-radius:10px; box-shadow:0 3px 14px rgba(28,74,122,.08); overflow:visible; background:#fff; }
+#myFormId .modal-header { background:linear-gradient(110deg,#1264a3,#258bc2); color:#fff; padding:16px 22px; border-radius:9px 9px 0 0; border-bottom:0; }
+#myFormId .modal-header .modal-title { color:#fff; font-size:21px; font-weight:600; letter-spacing:.2px; }
+#myFormId .modal-header .close { color:#fff; opacity:.9; text-shadow:none; }
+#myFormId .col-sm-12 { box-sizing:border-box; }
+#myFormId label.exampleInputEmail1, #myFormId label { color:#23415f; font-size:11px; font-weight:700; line-height:1.45; }
+#myFormId .form-control { border:1px solid #cbd9e8; border-radius:5px; box-shadow:none; min-height:34px; color:#243b53; background:#fff; transition:border-color .15s,box-shadow .15s; }
+#myFormId .form-control:focus { border-color:#2686c7; box-shadow:0 0 0 2px rgba(38,134,199,.12); }
+#myFormId input[readonly], #myFormId input:disabled { background:#eef4fa; color:#4a6075; }
+#myFormId textarea.form-control { min-height:48px; resize:vertical; }
+#myFormId input[type=radio], #myFormId input[type=checkbox] { accent-color:#1679b9; vertical-align:middle; }
+#myFormId .table-responsive { width:100%; }
+#myFormId table.table { width:100%; min-width:1120px; margin-bottom:10px; border-collapse:separate; border-spacing:0; background:#fff; }
+#myFormId table.table thead th { background:#eaf3fc; color:#173b65; border:1px solid #c8d9e9; border-bottom:2px solid #9dbbd8; padding:10px 8px; white-space:nowrap; vertical-align:middle; font-size:12px; }
+#myFormId table.table tbody td, #myFormId table.table tbody th { border:1px solid #d5e0eb; padding:7px 6px; vertical-align:middle; }
+#myFormId table.table tbody tr:nth-child(even) { background:#f8fbff; }
+#myFormId table.table tbody tr:hover { background:#eef7ff; }
+#myFormId #sales_cont input.form-control, #myFormId #sales_cont select.form-control { min-width:68px; padding:5px 7px; height:34px; }
+#myFormId #sales_cont .qnty { min-width:72px; }
+#myFormId #sales_cont .gstAmount, #myFormId #sales_cont .taxableAmount, #myFormId #sales_cont .totalAmount { background:#f0f5fa; font-weight:600; }
+#BtnNewRow { margin:8px 0 14px; border-radius:5px; padding:7px 18px; font-weight:600; background:#0aa4c8; border-color:#0aa4c8; }
+#BtnNewRow:hover { background:#087fa7; }
+#myFormId .btn { border-radius:5px; font-weight:600; padding:8px 13px; box-shadow:none; }
+#myFormId #saveprint { background:#1769aa; border-color:#1769aa; }
+#myFormId #saveonly { background:#16845b; border-color:#16845b; }
+#myFormId .btn-warning { color:#fff; }
+#myFormId .col-sm-12[style*="margin-top"] { margin-bottom:8px; }
+#myFormId .modal-footer { border-top:1px solid #e0eaf4; }
+#stockgodownmodal .modal-header { background:#1769aa; color:#fff; }
+#stockgodownmodal .modal-title { color:#fff; }
+#stockgodownmodal .table th, #stockgodownmodal .table td { border:1px solid #d5e0eb; padding:9px; }
+@media (max-width: 767px) {
+ .content-wrapper { overflow-x:hidden; }
+ #myFormId > .modal-content { margin:0 4px; }
+ #myFormId .col-sm-12 { padding-left:10px; padding-right:10px; }
+ #myFormId table.table { min-width:1120px; }
+ #myFormId .btn { margin:4px 2px; }
+}
+</style>
+
+
 <?php
 /*** begin the session ***/
 session_start();

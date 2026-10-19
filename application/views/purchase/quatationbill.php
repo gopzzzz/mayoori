@@ -43,6 +43,85 @@ input::-webkit-inner-spin-button {
 }
 </style>
 
+<style>
+/* Mayoori blue-and-white theme — presentation only; form logic is unchanged */
+.content-wrapper { background:#f3f6fb; }
+.content-wrapper .content-header { padding:20px 24px 8px; }
+.content-wrapper .content-header h1 { color:#174a86; font-size:25px; font-weight:700; letter-spacing:.25px; }
+.content-wrapper .content-header h1 small { color:#7b8ba3; font-size:14px; margin-left:7px; }
+.content-wrapper .breadcrumb { background:transparent; }
+.content-wrapper .breadcrumb a { color:#2463a6; }
+.content-wrapper .content { padding:0 20px 25px; }
+.content-wrapper .box { border-top:3px solid #2463a6; border-radius:10px; overflow:visible; box-shadow:0 4px 18px rgba(25,65,110,.08); background:#fff; }
+.content-wrapper .box-header { padding:15px 20px; }
+.content-wrapper .box-body { padding:18px 20px 22px; overflow-x:auto; }
+.content-wrapper .modal-content { border:1px solid #e1e9f3; border-radius:10px; box-shadow:0 8px 28px rgba(20,55,95,.1); }
+.content-wrapper .modal-header { background:#eaf3ff; border-bottom:1px solid #d6e5f7; border-radius:10px 10px 0 0; padding:14px 18px; }
+.content-wrapper .modal-title { color:#174a86; font-weight:700; }
+.content-wrapper label { color:#344b66; font-weight:600; font-size:11px; letter-spacing:.25px; }
+.content-wrapper .exampleInputEmail1 { color:#344b66; font-size:11px; font-weight:700; }
+.content-wrapper .form-control { min-height:34px; border:1px solid #d5dfeb; border-radius:5px; box-shadow:none; color:#26384d; background:#fff; transition:border-color .15s, box-shadow .15s; }
+.content-wrapper .form-control:focus { border-color:#4b8bd2; box-shadow:0 0 0 3px rgba(52,126,202,.12); }
+.content-wrapper textarea.form-control { resize:vertical; }
+.content-wrapper #myFormId > .modal-content { padding-bottom:12px; }
+.content-wrapper #myFormId .col-sm-12[style*="margin-top"] { margin-left:0; margin-right:0; }
+.content-wrapper #myFormId .table { min-width:1120px; margin-top:5px; border:1px solid #dbe5f0; border-collapse:separate; border-spacing:0; background:#fff; }
+.content-wrapper #myFormId .table thead th { background:#e8f2ff; color:#174a86; border-bottom:2px solid #b9d2ef; border-top:0; padding:11px 8px; white-space:nowrap; font-size:11px; text-transform:uppercase; letter-spacing:.25px; }
+.content-wrapper #myFormId .table tbody td, .content-wrapper #myFormId .table tbody th { padding:7px; vertical-align:middle; border-color:#e2e9f2; }
+.content-wrapper #myFormId .table tbody tr:nth-child(even) { background:#f9fbfe; }
+.content-wrapper #myFormId .table tbody tr:hover { background:#f0f6ff; }
+.content-wrapper #myFormId .table .form-control { min-width:70px; padding:5px 7px; font-size:12px; }
+.content-wrapper #myFormId .table input[readonly] { background:#f1f5fa; color:#425873; }
+.content-wrapper #BtnNewRow { margin:8px 0 18px; padding:7px 18px; border-radius:5px; background:#2463a6; border-color:#2463a6; color:#fff; font-weight:700; }
+.content-wrapper #BtnNewRow:hover { background:#174a86; }
+.content-wrapper #grandTotal { background:#eaf3ff; border-color:#8bb7e8; color:#174a86; font-size:18px; font-weight:700; }
+.content-wrapper #totalTaxableAmount, .content-wrapper #amountGst, .content-wrapper #roundOfValuue { background:#f4f8fd; font-weight:600; }
+.content-wrapper .btn { border-radius:5px; font-weight:700; letter-spacing:.2px; box-shadow:none; }
+.content-wrapper .btn-info { background:#2879bd; border-color:#2879bd; }
+.content-wrapper .btn-primary { background:#174f91; border-color:#174f91; }
+.content-wrapper .btn-success { background:#25845a; border-color:#25845a; }
+.content-wrapper .btn-warning { background:#e8a323; border-color:#e8a323; color:#fff; }
+.content-wrapper .btn-default { background:#eef3f9; border-color:#d6e1ed; color:#35506e; }
+.content-wrapper .btn:hover { filter:brightness(.96); }
+.content-wrapper .detailDeleteRow { color:#d64545; }
+.content-wrapper #customer_list, .content-wrapper [id^="code_list_"], .content-wrapper [id^="name_list_"], .content-wrapper [id^="batchlist_"] { background:#fff; border:1px solid #d7e2ef; border-radius:4px; box-shadow:0 5px 14px rgba(20,55,95,.12); }
+/* Structured quotation header fields */
+.content-wrapper .quotation-header-fields {
+  display: grid;
+  grid-template-columns: minmax(150px, 1fr) minmax(170px, 1fr) minmax(150px, 1fr) minmax(190px, 1.25fr);
+  gap: 14px 18px;
+  padding: 18px 20px 20px;
+  align-items: start;
+  clear: both;
+}
+.content-wrapper .quotation-field { min-width: 0; position: relative; }
+.content-wrapper .quotation-field > label:not(:has(input)) {
+  display: block; margin: 0 0 7px; line-height: 1.35; min-height: 15px;
+}
+.content-wrapper .quotation-field .form-control { width: 100% !important; max-width: 100%; }
+.content-wrapper .quotation-field textarea.form-control { min-height: 36px; height: 36px; }
+.content-wrapper .quotation-customer-field { grid-column: span 2; }
+.content-wrapper .quotation-igst-field { display:flex; align-items:center; min-height:36px; padding-top:20px; }
+.content-wrapper .quotation-igst-field label { margin:0; font-size:12px; }
+.content-wrapper .quotation-igst-field input { vertical-align:middle; margin:0 6px 0 0; }
+@media (max-width:1100px) {
+  .content-wrapper .quotation-header-fields { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .content-wrapper .quotation-customer-field { grid-column: span 1; }
+}
+@media (max-width:767px) {
+  .content-wrapper .content { padding:0 8px 18px; }
+  .content-wrapper .content-header { padding:15px 10px 5px; }
+  .content-wrapper .content-header h1 { font-size:21px; }
+  .content-wrapper .box-body { padding:12px 10px 18px; }
+  .content-wrapper .quotation-header-fields { grid-template-columns: minmax(0, 1fr); gap:12px; padding:14px 12px; }
+  .content-wrapper .quotation-customer-field { grid-column: span 1; }
+  .content-wrapper .quotation-igst-field { padding-top:0; }
+  .content-wrapper #myFormId .table { min-width:1120px; }
+  .content-wrapper #myFormId .col-sm-12[style*="margin-top"] { margin-top:12px !important; }
+}
+</style>
+
+
 <?php
 /*** begin the session ***/
 session_start();
@@ -126,78 +205,40 @@ $_SESSION['form_token'] = $form_token;
 						<h4 class="modal-title">Quotation Bill </h4>
 					</div>
 
-					<div class="col-sm-12" style="margin-top: 10px;">
-						<div class="col-sm-1">
-							<label class="exampleInputEmail1">BILL NO: </label>
-						</div>
-						<div class="col-sm-2">
-							<input type="text" name="quatationno" class="form-control" readonly
-								value="<?php if($bilqua->mycount==0){echo "1";}else{ echo $last_bill_number->quotationbill_master_quotation_no+1;}?>"
-								 />
-						</div>
-						<div class="col-sm-1">
-							<label class="exampleInputEmail1">BILL DATE:</label>
-						</div>
-						<div class="col-sm-2">
-							<input type="date" name="billdate" class="form-control" value="<?php echo date('Y-m-d'); ?>"
-								 />
-						</div>
+                    <div class="quotation-header-fields">
+                        <div class="quotation-field">
+                            <label class="exampleInputEmail1" for="quotation_no">BILL NO</label>
+                            <input id="quotation_no" type="text" name="quatationno" class="form-control" readonly
+                                value="<?php if($bilqua->mycount==0){echo "1";}else{ echo $last_bill_number->quotationbill_master_quotation_no+1;}?>" />
+                        </div>
+                        <div class="quotation-field">
+                            <label class="exampleInputEmail1" for="billdate">BILL DATE</label>
+                            <input id="billdate" type="date" name="billdate" class="form-control" value="<?php echo date('Y-m-d'); ?>" />
+                        </div>
+                        <div class="quotation-field">
+                            <label class="exampleInputEmail1" for="gstno">GST NUMBER</label>
+                            <input id="gstno" type="text" name="gstno" class="form-control" />
+                        </div>
+                        <div class="quotation-field quotation-address-field">
+                            <label class="exampleInputEmail1" for="address">ADDRESS</label>
+                            <textarea name="address" class="form-control cleardata" id="address" rows="1"></textarea>
+                        </div>
+                        <div class="quotation-field quotation-customer-field" id="cust_search">
+                            <label class="exampleInputEmail1" for="customername">CUSTOMER NAME</label>
+                            <input type="text" name="customername" id="customername" class="form-control cleardata searchcus" required />
+                            <input type="hidden" name="customerloginid" id="customerid">
+                            <div id="customer_list"></div>
+                        </div>
+                        <div class="quotation-field">
+                            <label class="exampleInputEmail1" for="phon_num">PHONE NUMBER</label>
+                            <input type="text" name="phonenumber" class="form-control cleardata" id="phon_num" maxlength="10" minlength="10" required />
+                            <div id="phonenum_list"></div>
+                        </div>
+                        <div class="quotation-field quotation-igst-field">
+                            <label><input type="checkbox" name="isigst" id="isigst" value="1" class="cleardata" /> IS IGST</label>
+                        </div>
+                    </div>
 
-                      
-					
-					
-						<div class="col-sm-1">
-								<label class="exampleInputEmail1">GST NUMBER</label>
-							</div>
-							<div class="col-sm-2">
-								<input type="text" name="gstno" class="form-control"/>
-							</div>
-
-						<div class="col-sm-1">
-							<label class="exampleInputEmail1">ADDRESS:</label>
-						</div>
-						<div class="col-sm-2">
-							<textarea name="address" class="form-control cleardata" id="address"></textarea>
-						</div>
-
-					
-
-					</div>
-
-
-					<div class="col-sm-12" style="margin-top: 10px;">
-
-					<div class="col-sm-1">
-							<label class="exampleInputEmail1">CUSTOMER NAME:</label>
-						</div>
-						<div class="col-sm-2" id="cust_search">
-							<input type="text" name="customername" id="customername" class="form-control cleardata searchcus" style="width:150px;" required />
-							
-							<input type="hidden" name="customerloginid" id="customerid">
-							
-							<div id="customer_list"></div>
-							
-						</div>
-
-                        <div class="col-sm-1">
-							<label class="exampleInputEmail1">PHONE NUMBER:</label>
-
-						</div>
-						<div class="col-sm-2">
-							<input type="text" name="phonenumber" class="form-control cleardata" id="phon_num" maxlength="10"  minlength="10" required />
-							<div id="phonenum_list"></div>
-						</div>
-					
-					
-                        <div class="col-sm-2">
-									<label><input type="checkbox" name="isigst" id="isigst" value="1" class="cleardata"/> IS IGST</label>
-						</div>
-
-					
-
-					</div>
-
-				
 					<div class="col-sm-12" style="margin-top: 20px;">
 
 						<table class="table">

@@ -137,7 +137,46 @@
 
   <!-- Content Wrapper. Contains page content -->
 
-  <div class="content-wrapper">
+  
+<!-- Modern blue-and-white styling matching the Mayoori transaction pages -->
+<style>
+.content-wrapper { background: #f4f7fb; }
+.content-header h1 { color: #1f4e79; font-weight: 700; }
+.content-header h1 small { color: #66809a; }
+.content .box { border-top: 3px solid #3c8dbc; border-radius: 6px; box-shadow: 0 2px 12px rgba(30,70,110,.08); background: #fff; }
+.content .box-header { padding: 15px 18px; border-bottom: 1px solid #e5edf5; }
+.content .box-title, .content .modal-title { color: #1f4e79; font-weight: 700; }
+.content .box-body { padding: 18px; }
+.content label, .content .exampleInputEmail1 { color: #334e68; font-weight: 600; }
+.content .form-control { border: 1px solid #cbd7e3; border-radius: 5px; box-shadow: none; min-height: 36px; }
+.content .form-control:focus { border-color: #3c8dbc; box-shadow: 0 0 0 2px rgba(60,141,188,.12); }
+.content .btn { border-radius: 4px; font-weight: 600; transition: background-color .15s ease; }
+.content .btn-info, .content .btn-primary { background: #287db5; border-color: #287db5; }
+.content .btn-info:hover, .content .btn-primary:hover { background: #1f6798; border-color: #1f6798; }
+.content .btn-success { background: #248a65; border-color: #248a65; }
+.content .btn-warning { color: #fff; background: #d18a22; border-color: #d18a22; }
+.content table.table { width: 100%; background: #fff; border-collapse: collapse; margin-bottom: 12px; }
+.content table.table > thead > tr > th { background: #eaf3fb; color: #214f78; font-weight: 700; white-space: nowrap; border: 1px solid #c9d9e8 !important; padding: 10px 8px; }
+.content table.table > tbody > tr > td { border: 1px solid #d5e0ea !important; padding: 9px 8px; vertical-align: middle; }
+.content table.table > tbody > tr:nth-child(even) { background: #f7faff; }
+.content table.table > tbody > tr:hover { background: #edf6ff; }
+.content .modal-content { border: 0; border-radius: 8px; overflow: hidden; box-shadow: 0 8px 28px rgba(20,50,80,.18); }
+.content .modal-header, .content .cash-receipt-header { background: #eaf3fb; border-bottom: 1px solid #d4e2ef; padding: 15px 20px; }
+.content .modal-body { padding: 22px; }
+.content .modal-footer { border-top: 1px solid #e5edf5; background: #f8fbfe; }
+.content .receipt-field { margin-bottom: 17px; }
+.content .receipt-actions { display: flex; flex-wrap: wrap; gap: 9px; align-items: center; margin-top: 12px; }
+.content .receipt-actions .btn { padding: 8px 13px; }
+.content .select2-container { width: 100% !important; }
+.content .select2-container .select2-selection--single { min-height: 36px; border-color: #cbd7e3 !important; border-radius: 5px !important; }
+.content .select2-container--default .select2-selection--single .select2-selection__rendered { line-height: 34px; }
+.content .select2-container--default .select2-selection--single .select2-selection__arrow { height: 34px; }
+.content .dataTables_wrapper .dt-buttons .dt-button { background: #287db5 !important; color: #fff !important; border: 1px solid #287db5 !important; border-radius: 4px; padding: 6px 14px; margin-right: 6px; }
+.content .dataTables_wrapper .dt-buttons .dt-button:hover { background: #1f6798 !important; }
+@media (max-width: 767px) { .content { padding: 10px; } .content .modal-dialog { width: auto !important; margin: 10px; } .content .box-body { padding: 10px; } .content table.table { min-width: 850px; } .content .receipt-actions { gap: 7px; } }
+</style>
+
+<div class="content-wrapper">
 
   
 

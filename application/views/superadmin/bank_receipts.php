@@ -353,6 +353,50 @@
 
 
 
+
+<!-- Blue-and-white theme matching the previous Mayoori transaction pages -->
+<style>
+.content-wrapper{background:#f4f7fb;}
+.content-header h1{color:#1f4e79;font-weight:700;letter-spacing:.2px;}
+.content-header h1 small{color:#5c7894;}
+.content .box{border-top:3px solid #3c8dbc;border-radius:6px;box-shadow:0 2px 12px rgba(30,70,110,.08);background:#fff;}
+.content .box-header{padding:15px 18px;border-bottom:1px solid #e5edf5;}
+.content .box-title,.content .modal-title{color:#1f4e79;font-weight:700;}
+.content .box-body{padding:15px;}
+.content .table-responsive{overflow-x:auto;}
+.content table.table{width:100%;background:#fff;border-collapse:collapse;margin-bottom:12px;}
+.content table.table>thead>tr>th{background:#eaf3fb;color:#214f78;font-weight:700;white-space:nowrap;border:1px solid #c9d9e8!important;padding:10px 8px;vertical-align:middle;}
+.content table.table>tbody>tr>td,.content table.table>tbody>tr>th{border:1px solid #d5e0ea!important;padding:8px;vertical-align:middle;}
+.content table.table>tbody>tr:nth-child(even){background:#f7faff;}
+.content table.table>tbody>tr:hover{background:#edf6ff;}
+.bank-receipt-form{border:1px solid #dce7f1;border-top:4px solid #3c8dbc;border-radius:8px;box-shadow:0 4px 18px rgba(30,70,110,.08);background:#fff;}
+.bank-receipt-header{background:#eaf3fb;border-bottom:1px solid #d5e3f0;}
+.bank-receipt-header h3,.section-title{color:#1f4e79;}
+.section-title{border-bottom-color:#e0eaf3;}
+.section-title i{color:#287db5;}
+.divtext .form-control,.content .form-control{border:1px solid #cbd7e3;border-radius:5px;box-shadow:none;}
+.divtext .form-control:focus,.content .form-control:focus{border-color:#3c8dbc;box-shadow:0 0 0 2px rgba(60,141,188,.12);}
+.divtext .form-control[readonly]{background:#f2f6fa;}
+.labeltext label,.content label{color:#334e68;font-weight:600;}
+.receipt-actions{background:#f4f8fc;border-top:1px solid #dce7f1;}
+.receipt-actions .btn{border-radius:5px;font-weight:600;transition:background .2s ease;}
+.content .btn-primary,.receipt-actions .btn-primary{background:#287db5;border-color:#287db5;}
+.content .btn-primary:hover,.receipt-actions .btn-primary:hover{background:#1f6798;border-color:#1f6798;}
+.content .btn-info,.receipt-actions .btn-info{background:#287db5;border-color:#287db5;}
+.content .modal-content{border:0;border-radius:8px;box-shadow:0 8px 28px rgba(20,50,80,.18);overflow:hidden;}
+.content .modal-header{background:#eaf3fb;border-bottom:1px solid #d4e2ef;padding:15px 20px;}
+.content .modal-footer{border-top:1px solid #e5edf5;background:#f8fafc;}
+.content .text-success{color:#287db5;}
+.dataTables_wrapper .dt-buttons{margin-bottom:12px;}
+.dataTables_wrapper .dt-buttons .dt-button{background:#287db5!important;color:#fff!important;border:1px solid #287db5!important;border-radius:5px!important;padding:7px 14px!important;margin-right:6px!important;font-weight:600!important;box-shadow:none!important;}
+.dataTables_wrapper .dt-buttons .dt-button:hover{background:#1f6798!important;border-color:#1f6798!important;}
+.dataTables_wrapper .dataTables_filter input,.dataTables_wrapper .dataTables_length select{border:1px solid #cbd7e3;border-radius:5px;padding:5px 8px;outline:none;}
+.dataTables_wrapper .dataTables_filter input:focus{border-color:#3c8dbc;}
+.select2-container--default .select2-selection--single{border-color:#cbd7e3!important;border-radius:5px!important;}
+.select2-container--default.select2-container--focus .select2-selection--single,.select2-container--default.select2-container--open .select2-selection--single{border-color:#3c8dbc!important;}
+@media(max-width:767px){.content{padding:10px;}.bank-receipt-form{margin:10px 0;}.bank-receipt-header{padding:16px;}.receipt-actions{display:block;padding:15px;}.action-right{flex-wrap:wrap;gap:7px;}.content .modal-dialog{width:auto!important;margin:10px;}.content table.table{min-width:850px;}}
+</style>
+
   <div class="content-wrapper">
 
 

@@ -10,8 +10,8 @@ $db['default'] = array(
 	 'port'=>'3306',
 	 'hostname'=>'localhost',
 	 'database' => 'mayoori',
-	 'username' => 'newuser',
-	 'password' => 'user@123',
+	 'username' => 'root',
+	 'password' => '',
 
 	
 	'dbdriver' => 'mysqli',

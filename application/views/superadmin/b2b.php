@@ -1,3 +1,40 @@
+<!-- Modern blue-and-white styling; existing PHP, routes, and JavaScript are preserved. -->
+<style>
+/* B2B Billing Report - scoped to this view */
+.content-wrapper { background:#f2f6fc; }
+.content-wrapper .content-header { padding:20px 24px 10px; }
+.content-wrapper .content-header h1 { color:#173b66; font-weight:700; letter-spacing:.2px; }
+.content-wrapper .content-header h1 small { color:#4776a8; font-weight:500; }
+.content-wrapper .content { padding:18px 22px 28px; }
+.content-wrapper .content > a .btn-info,
+.content-wrapper .content .btn-info { background:#1769aa; border-color:#1769aa; border-radius:7px; box-shadow:0 3px 8px rgba(23,105,170,.16); font-weight:600; margin-bottom:14px; }
+.content-wrapper .content > a .btn-info:hover,
+.content-wrapper .content .btn-info:hover { background:#105487; border-color:#105487; }
+.content-wrapper .box { border-top:0; border-radius:10px; overflow:visible; box-shadow:0 5px 22px rgba(26,65,110,.10); background:#fff; }
+.content-wrapper .box-header { padding:17px 20px; border-bottom:1px solid #e3ebf5; background:#fff; }
+.content-wrapper .box-title { color:#173b66; font-weight:700; font-size:18px; }
+.content-wrapper #b2bsalesaerch { max-width:380px; height:40px; border:1px solid #cbd9e8; border-radius:5px; box-shadow:none; padding:8px 12px; margin:0 0 12px; }
+.content-wrapper #b2bsalesaerch:focus { border-color:#3986c8; box-shadow:0 0 0 3px rgba(57,134,200,.12); }
+.content-wrapper .box-body { padding:18px 20px; }
+.content-wrapper table.table { width:100%; border-collapse:collapse !important; background:#fff; margin-bottom:12px; }
+.content-wrapper table.table thead th { background:#eaf3fc; color:#173b65; font-weight:700; white-space:nowrap; border:1px solid #c8d9e9 !important; border-bottom:2px solid #9dbbd8 !important; padding:10px 8px; vertical-align:middle; }
+.content-wrapper table.table tbody td { color:#34465b; border:1px solid #d5e0eb !important; padding:8px 7px; vertical-align:middle; }
+.content-wrapper table.table tbody tr:nth-child(even) { background:#f8fbff; }
+.content-wrapper table.table tbody tr:hover { background:#edf6ff; }
+.content-wrapper table.table td a { display:inline-block; margin:0 5px 0 0; padding:6px 8px; color:#1769aa; background:#edf6ff; border:1px solid #c8e0f7; border-radius:5px; text-decoration:none; }
+.content-wrapper table.table td a:hover { color:#fff; background:#1769aa; border-color:#1769aa; }
+.content-wrapper table.table td a .fa, .content-wrapper table.table td a .fa:before { font-size:14px; }
+.content-wrapper .pagination { margin:14px 0 4px; }
+.content-wrapper .pagination a, .content-wrapper .pagination strong { padding:7px 11px; border:1px solid #d3dfec; border-radius:4px; margin-right:3px; }
+@media (max-width:767px) {
+ .content-wrapper .content { padding:12px 8px 22px; }
+ .content-wrapper .box-body { padding:10px; }
+ .content-wrapper .content-header { padding:15px 12px 8px; }
+ .content-wrapper #b2bsalesaerch { max-width:100%; }
+ .content-wrapper table.table { min-width:1100px; }
+}
+</style>
+
 <style>
 	input[type=radio] {
     width: 17px;

@@ -12,6 +12,69 @@
 
   <!-- Content Wrapper. Contains page content -->
 
+
+<!-- Modern blue-and-white theme matching the Sales Billing Window -->
+<style>
+.content-wrapper { background: #f4f7fb; }
+.content-header h1 { color: #1f4e79; font-weight: 700; letter-spacing: .2px; }
+.content-header h1 small { color: #5c7894; }
+.content .box { border-top: 3px solid #3c8dbc; border-radius: 6px; box-shadow: 0 2px 12px rgba(30,70,110,.08); background: #fff; }
+.content .box-header { padding: 15px 18px; border-bottom: 1px solid #e5edf5; }
+.content .box-title, .content .modal-title { color: #1f4e79; font-weight: 700; }
+.content .box-body { padding: 15px; }
+.content .table-responsive { overflow-x: auto; }
+.content table.table { width: 100%; background: #fff; border-collapse: collapse; margin-bottom: 12px; }
+.content table.table > thead > tr > th { background: #eaf3fb; color: #214f78; font-weight: 700; white-space: nowrap; border: 1px solid #c9d9e8 !important; padding: 10px 8px; vertical-align: middle; }
+.content table.table > tbody > tr > td, .content table.table > tbody > tr > th { border: 1px solid #d5e0ea !important; padding: 8px; vertical-align: middle; }
+.content table.table > tbody > tr:nth-child(even) { background: #f7faff; }
+.content table.table > tbody > tr:hover { background: #edf6ff; }
+.content .form-control { border: 1px solid #cbd7e3; border-radius: 4px; box-shadow: none; min-height: 34px; }
+.content .form-control:focus { border-color: #3c8dbc; box-shadow: 0 0 0 2px rgba(60,141,188,.12); }
+.content label { color: #334e68; font-weight: 600; }
+.content .btn-info, .content .btn-primary { background: #287db5; border-color: #287db5; color: #fff; }
+.content .btn-info:hover, .content .btn-primary:hover { background: #1f6798; border-color: #1f6798; }
+.content .btn-secondary { background: #5c7894; border-color: #5c7894; color: #fff; }
+.content .btn-success { background: #27865c; border-color: #27865c; }
+.content .btn-danger { background: #c94c4c; border-color: #c94c4c; }
+.content .modal-content { border: 0; border-radius: 7px; box-shadow: 0 8px 28px rgba(20,50,80,.18); }
+.content .modal-header { background: #eaf3fb; border-bottom: 1px solid #d4e2ef; border-radius: 7px 7px 0 0; padding: 15px 20px; }
+.content .modal-footer { border-top: 1px solid #e5edf5; }
+.content .fa-pencil { color: #287db5; cursor: pointer; }
+/* Excel / CSV export buttons: matching Delivery Challan styling */
+.dataTables_wrapper .dt-buttons { display: inline-flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; align-items: center; }
+.dataTables_wrapper .dt-buttons .dt-button,
+.dataTables_wrapper .dt-buttons button.dt-button,
+.dataTables_wrapper .dt-buttons a.dt-button {
+  appearance: none !important;
+  background: #287db5 !important;
+  background-image: none !important;
+  color: #fff !important;
+  border: 1px solid #287db5 !important;
+  border-radius: 5px !important;
+  box-shadow: 0 2px 5px rgba(40,125,181,.16) !important;
+  padding: 8px 16px !important;
+  margin: 0 !important;
+  font-family: inherit !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  line-height: 1.4 !important;
+  text-shadow: none !important;
+  transition: background .18s ease, border-color .18s ease, box-shadow .18s ease !important;
+}
+.dataTables_wrapper .dt-buttons .dt-button:hover,
+.dataTables_wrapper .dt-buttons .dt-button:focus {
+  background: #1f6798 !important;
+  background-image: none !important;
+  color: #fff !important;
+  border-color: #1f6798 !important;
+  box-shadow: 0 3px 8px rgba(31,103,152,.22) !important;
+  outline: none !important;
+}
+.dataTables_wrapper .dt-buttons .dt-button:active { box-shadow: inset 0 1px 3px rgba(0,0,0,.12) !important; }
+
+@media (max-width: 767px) { .content { padding: 10px; } .content .modal-dialog { width: auto !important; margin: 10px; } .content .col-sm-4 { margin-bottom: 10px; } .content table.table { min-width: 850px; } }
+</style>
+
   <div class="content-wrapper">
 
   

@@ -3,6 +3,48 @@
     <button type="button" class="close" data-dismiss="modal">&times;</button>
     <h4 class="modal-title">Sales Billing Window </h4>
 </div>
+
+<style>
+/* Sales edit modal - UI-only refresh for CodeIgniter 3 / Bootstrap 3 */
+#editform { color:#304158; font-size:13px; }
+#editform .modal-header { padding:18px 22px; background:#f4f8fd; border-bottom:1px solid #e1e8f0; border-top:3px solid #287db7; }
+#editform .modal-title { color:#1d3553; font-size:19px; font-weight:700; }
+#editform .modal-header .close { font-size:27px; opacity:.65; }
+#editform > .col-sm-12 { box-sizing:border-box; padding-left:18px; padding-right:18px; }
+#editform label { color:#52647b; font-size:11px; font-weight:700; line-height:1.45; }
+#editform .form-control { height:35px; border:1px solid #d9e2ed; border-radius:5px; color:#2c3e55; box-shadow:none; font-size:12px; }
+#editform textarea.form-control { height:auto; min-height:60px; resize:vertical; }
+#editform .form-control:focus { border-color:#3788bd; box-shadow:0 0 0 2px rgba(55,136,189,.10); }
+#editform input[type=checkbox], #editform input[type=radio] { accent-color:#287db7; }
+#editform .sales-edit-table-wrap { width:100%; overflow-x:auto; border:1px solid #dce5ef; border-radius:8px; background:#fff; }
+#editform #edittable { width:100%; min-width:1500px; margin:0; border-collapse:collapse; border:0; }
+#editform #edittable thead th { padding:12px 9px; background:#eef4fb; color:#455b75; border:1px solid #d7e1ed; font-size:11px; font-weight:700; white-space:nowrap; vertical-align:middle; }
+#editform #edittable tbody td, #editform #edittable tbody th { padding:8px 7px; border:1px solid #e0e7f0; vertical-align:middle; background:#fff; }
+#editform #edittable tbody tr:hover td, #editform #edittable tbody tr:hover th { background:#f7fbff; }
+#editform #edittable .form-control { min-width:78px; height:33px; padding:5px 7px; }
+#editform #edittable .slno { min-width:48px; text-align:center; color:#536982; }
+#editform #edittable .searchitemmodel, #editform #edittable .detailEraseRow, #editform #edittable .detailDeleteRow { cursor:pointer; padding:5px; }
+#editform #edittable .searchitemmodel { color:#287db7; }
+#editform #edittable .detailEraseRow { color:#b78325; }
+#editform #edittable .detailDeleteRow { color:#d9534f; }
+#editform #BtnNewRow { margin:12px 0 18px; padding:7px 22px; border:0; border-radius:5px; background:#287db7; font-weight:600; }
+#editform .col-sm-6 { margin-bottom:12px; }
+#editform .col-sm-6 > .col-sm-12 { margin-bottom:12px; }
+#editform input[type=radio] + label { margin-right:10px; }
+#editform .btn { border-radius:5px; font-weight:600; }
+#editform .btn-primary { background:#287db7; border-color:#287db7; }
+#editform .btn-success { background:#25845c; border-color:#25845c; }
+#editform .btn-warning { color:#fff; }
+#editform .modal-footer { border-top:1px solid #e5ebf2; }
+@media (max-width:767px) {
+  #editform > .col-sm-12 { padding-left:10px; padding-right:10px; }
+  #editform .col-sm-1, #editform .col-sm-2, #editform .col-sm-4, #editform .col-sm-6, #editform .col-sm-10 { margin-bottom:8px; }
+  #editform .modal-header { padding:14px; }
+  #editform .modal-title { font-size:16px; }
+  #editform .sales-edit-table-wrap { margin-bottom:10px; }
+}
+</style>
+
 <input type="hidden" name="master_id" value="<?=$sales->sales_master_id?>" />
 <div class="col-sm-12" style="margin-top: 10px;">
     <div class="col-sm-1"> 
@@ -102,6 +144,7 @@
 </div>
 <div class="col-sm-12" style="margin-top: 20px;"> 
 
+    <div class="sales-edit-table-wrap">
     <table class="table" id="edittable">  
         <thead>
             <tr> 
@@ -207,6 +250,7 @@
             }?>
         </tbody>
     </table>
+    </div>
 </div>
 <div class="col-sm-12" style="text-align: center;margin-top: -25px;">
     <button type="button" id="BtnNewRow" data-order="<?php echo count($salestrans);?>" class="btn btn-info btn-sm">ADD</button>

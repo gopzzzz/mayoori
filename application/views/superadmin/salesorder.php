@@ -69,6 +69,38 @@ input::-webkit-inner-spin-button {
 
 <!-- Content Wrapper. Contains page content -->
 
+
+
+<!-- Modern blue-and-white theme matching the Sales Billing Window -->
+<style>
+.content-wrapper { background: #f4f7fb; }
+.content-header h1 { color: #1f4e79; font-weight: 700; letter-spacing: .2px; }
+.content-header h1 small { color: #5c7894; }
+.content > .row > .col-xs-12 > .box, .content .box { border-top: 3px solid #3c8dbc; border-radius: 6px; box-shadow: 0 2px 12px rgba(30,70,110,.08); background: #fff; }
+.content .box-header { padding: 15px 18px; border-bottom: 1px solid #e5edf5; }
+.content .box-title, .content .modal-title { color: #1f4e79; font-weight: 700; }
+.content .box-body { padding: 15px; }
+.content .table-responsive { overflow-x: auto; }
+.content table.table { width: 100%; background: #fff; border-collapse: collapse; margin-bottom: 12px; }
+.content table.table > thead > tr > th { background: #eaf3fb; color: #214f78; font-weight: 700; white-space: nowrap; border: 1px solid #c9d9e8 !important; padding: 10px 8px; vertical-align: middle; }
+.content table.table > tbody > tr > td, .content table.table > tbody > tr > th { border: 1px solid #d5e0ea !important; padding: 8px; vertical-align: middle; }
+.content table.table > tbody > tr:nth-child(even) { background: #f7faff; }
+.content table.table > tbody > tr:hover { background: #edf6ff; }
+.content .form-control { border: 1px solid #cbd7e3; border-radius: 4px; box-shadow: none; min-height: 34px; }
+.content .form-control:focus { border-color: #3c8dbc; box-shadow: 0 0 0 2px rgba(60,141,188,.12); }
+.content label { color: #334e68; font-weight: 600; }
+.content .btn-info, .content .btn-primary { background: #287db5; border-color: #287db5; }
+.content .btn-info:hover, .content .btn-primary:hover { background: #1f6798; border-color: #1f6798; }
+.content .modal-content { border: 0; border-radius: 7px; box-shadow: 0 8px 28px rgba(20,50,80,.18); }
+.content .modal-header { background: #eaf3fb; border-bottom: 1px solid #d4e2ef; border-radius: 7px 7px 0 0; padding: 15px 20px; }
+.content .modal-footer { border-top: 1px solid #e5edf5; }
+.content #example21 p { padding: 4px 8px; border-radius: 4px; width: fit-content; font-size: 12px; color: #fff; margin: 3px; }
+.content #example21 a { color: #287db5; }
+.content #sales_cont .tooltip > .tooltip-inner { background-color: #f25252; color: #fff; border: 1px solid red; }
+.content #sales_cont .tooltip.top > .tooltip-arrow { border-top-color: red; }
+@media (max-width: 767px) { .content { padding: 10px; } .content .modal-dialog { width: auto !important; margin: 10px; } .content .col-sm-12 { margin-bottom: 8px; } .content table.table { min-width: 1100px; } }
+</style>
+
 <div class="content-wrapper">
 
 

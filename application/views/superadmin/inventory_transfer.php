@@ -4,7 +4,7 @@
 
 
 
-<div class="content-wrapper">
+<div class="content-wrapper inventory-transfer-page">
 
 
 
@@ -158,6 +158,45 @@
 
     }
 
+
+    /* Modern blue-and-white Inventory Transfer styling */
+    .inventory-transfer-page { color:#26364a; }
+    .inventory-transfer-page .content-header h1 { color:#173b68; font-size:25px; font-weight:700; letter-spacing:.3px; }
+    .inventory-transfer-page .content-header h1 small { color:#73839a; font-size:14px; }
+    .inventory-transfer-page .box { border-top:3px solid #2878c8; border-radius:8px; box-shadow:0 4px 18px rgba(30,65,100,.09); overflow:hidden; }
+    .inventory-transfer-page .box-header { padding:18px 20px; background:#f5f9fe; border-bottom:1px solid #e3ebf5; }
+    .inventory-transfer-page .box-title { color:#173b68; font-size:17px; font-weight:700; }
+    .inventory-transfer-page .box-body { margin:0; padding:20px; }
+    .inventory-transfer-page .divtext { margin-top:12px; margin-bottom:8px; }
+    .inventory-transfer-page label { color:#344b66; font-weight:600; }
+    .inventory-transfer-page .form-control { min-height:36px; border:1px solid #ccd8e6; border-radius:5px; box-shadow:none; color:#27384c; }
+    .inventory-transfer-page .form-control:focus { border-color:#3985d6; box-shadow:0 0 0 2px rgba(57,133,214,.12); }
+    .inventory-transfer-page #crud_table { margin-top:24px; border-collapse:separate; border-spacing:0; border-radius:7px; overflow:hidden; }
+    .inventory-transfer-page #crud_table th { padding:11px 9px; background:#eaf3fc; color:#1e4774; border:1px solid #d4e1ef; font-size:12px; white-space:nowrap; }
+    .inventory-transfer-page #crud_table td { padding:8px; vertical-align:middle; border:1px solid #e2e9f1; background:#fff; }
+    .inventory-transfer-page #crud_table tbody tr:nth-child(even) td { background:#f8fbff; }
+    .inventory-transfer-page #crud_table tbody tr:hover td { background:#eef6ff; }
+    .inventory-transfer-page .btn { border-radius:5px; font-weight:600; transition:background .15s ease; }
+    .inventory-transfer-page .btn-primary { background:#246fba; border-color:#246fba; }
+    .inventory-transfer-page .btn-primary:hover { background:#195b9d; border-color:#195b9d; }
+    .inventory-transfer-page .btn-success { background:#16836b; border-color:#16836b; }
+    .inventory-transfer-page .btn-warning { background:#e7a12a; border-color:#e7a12a; color:#fff; }
+    .inventory-transfer-page #searchModel .modal-content { border:0; border-radius:9px; overflow:hidden; box-shadow:0 12px 35px rgba(20,45,75,.2); }
+    .inventory-transfer-page #searchModel .modal-header { background:#f3f8fe; border-bottom:1px solid #e1eaf5; }
+    .inventory-transfer-page #searchModel .modal-title { color:#173b68; font-weight:700; }
+    .inventory-transfer-page #searchbox tr { height:auto; background:#fff; cursor:pointer; }
+    .inventory-transfer-page #searchbox tr:nth-child(even) { background:#f6faff; }
+    .inventory-transfer-page #searchbox tr:hover { background:#eaf3fc; }
+    .inventory-transfer-page #searchModel table { border-collapse:collapse; }
+    .inventory-transfer-page #searchModel th { padding:10px; background:#eaf3fc; color:#1e4774; }
+    .inventory-transfer-page #searchModel td { padding:9px; border:1px solid #e2e9f1; }
+    .inventory-transfer-page .content .row > [class*="col-"] { min-width:0; }
+    @media (max-width:767px) {
+      .inventory-transfer-page .box-body { padding:12px; }
+      .inventory-transfer-page .content-header h1 { font-size:21px; }
+      .inventory-transfer-page #crud_table { min-width:980px; }
+      .inventory-transfer-page .modal-dialog { width:96% !important; margin:10px auto; }
+    }
     </style>
 
 
