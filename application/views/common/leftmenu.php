@@ -46,27 +46,118 @@
    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.6/css/buttons.dataTables.min.css">
    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
    <style>
-      table.dataTable thead th, table.dataTable thead td,table.dataTable.no-footer {
-      border-bottom: 0px !important;
-      }
-      label,th,.form-control,td{ 
-      font-size:13px;
-      }
-      .form-control{
-      height:25px;
-      padding: 3px 12px;
-      }
-      input[type=radio] {
-      width: 15px;
-      height: 15px;
-      }
-      .modal-header{
-      padding: 10px;
-      }
-      .fa{
-      font-size: 19px;
-      }
-      .modal { overflow: auto !important; }
+      
+/* Reports menu styling - isolated from other sidebar menus */
+
+.sidebar-menu > li.reports-menu {
+    border-radius: 6px;
+}
+
+.sidebar-menu > li.reports-menu > a {
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+}
+
+.sidebar-menu > li.reports-menu > a:hover {
+    background-color: #344b58;
+}
+
+/* Only direct submenu levels */
+.sidebar-menu > li.reports-menu > ul.treeview-menu {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.sidebar-menu > li.reports-menu > ul.treeview-menu > li > a {
+    padding: 10px 10px 10px 15px;
+    line-height: 1.4;
+    white-space: normal;
+}
+
+/* Keep nested report menus aligned */
+.sidebar-menu > li.reports-menu ul.treeview-menu ul.treeview-menu > li > a {
+    padding: 8px 8px 8px 18px;
+    line-height: 1.4;
+    white-space: normal;
+}
+
+/* Hover and active states */
+.sidebar-menu > li.reports-menu .treeview-menu > li > a:hover {
+    background-color: #344b58;
+    color: #fff;
+}
+
+.sidebar-menu > li.reports-menu .treeview-menu > li.active > a {
+    background-color: #337fa5;
+    color: #fff;
+}
+
+/* Final Reports sidebar spacing refinement */
+
+.sidebar-menu > li.reports-menu .treeview-menu > li > a {
+    display: block;
+    position: relative;
+    padding: 10px 25px 10px 15px;
+    line-height: 1.45;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+.sidebar-menu > li.reports-menu .treeview-menu > li > a > .fa:not(.pull-right) {
+    display: inline-block;
+    width: 18px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.sidebar-menu > li.reports-menu .treeview-menu > li > a > .pull-right-container {
+    position: absolute;
+    right: 8px;
+    top: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-menu > li.reports-menu .treeview-menu > li > a > .pull-right-container > .fa {
+    font-size: 12px;
+}
+
+.sidebar-menu > li.reports-menu .treeview-menu > li > a:hover {
+    color: #ffffff;
+    background: #344b58;
+}
+
+.sidebar-menu > li.reports-menu .treeview-menu > li.active > a {
+    background: #337fa5;
+    color: #ffffff;
+}
+
+/* Compact Reports submenu styling */
+
+.sidebar-menu > li.reports-menu ul.treeview-menu > li > a {
+    min-height: 36px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    line-height: 1.4;
+    border-radius: 4px;
+}
+
+.sidebar-menu > li.reports-menu ul.treeview-menu > li.active > a {
+    background-color: #344b58;
+    color: #ffffff;
+    border-left: 3px solid #3c9ac4;
+}
+
+.sidebar-menu > li.reports-menu ul.treeview-menu > li > a:hover {
+    background-color: #344b58;
+    color: #ffffff;
+}
+
+.sidebar-menu > li.reports-menu ul.treeview-menu > li > a .pull-right-container {
+    right: 8px;
+}
+
    </style>
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
@@ -368,7 +459,7 @@
                   <li <?php if($leftmenu == 'financialyearcreation'){echo 'class="active"';}?> ><a href="<?php echo base_url('cashflow');?>"><i class="fa fa-circle-o"></i>Statement of cashflows</a></li>
                </ul>
             </li>
-            <li class="treeview">
+            <li class="treeview reports-menu">
                <a href="#">
                <i class="fa fa-meetup"></i>
                <span>Reports</span>
