@@ -73,6 +73,38 @@
 .dataTables_wrapper .dt-buttons .dt-button:active { box-shadow: inset 0 1px 3px rgba(0,0,0,.12) !important; }
 
 @media (max-width: 767px) { .content { padding: 10px; } .content .modal-dialog { width: auto !important; margin: 10px; } .content .col-sm-4 { margin-bottom: 10px; } .content table.table { min-width: 850px; } }
+
+/* Cash Payment action links: clean, separate, no filled blue buttons */
+.content .dc-action-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin: 2px 6px 2px 0;
+  padding: 6px 9px;
+  color: #42627f !important;
+  background: transparent !important;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  text-decoration: none !important;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 1.4;
+  white-space: nowrap;
+  transition: background-color .15s ease, border-color .15s ease, color .15s ease;
+}
+.content .dc-action-link .fa {
+  color: inherit !important;
+  margin: 0 !important;
+}
+.content .dc-action-link:hover,
+.content .dc-action-link:focus {
+  color: #1769aa !important;
+  background: #edf5fc !important;
+  border-color: #d7e6f4;
+  text-decoration: none !important;
+  outline: none;
+}
+.content .dc-action-cell { white-space: nowrap; }
 </style>
 
   <div class="content-wrapper">
@@ -324,9 +356,9 @@
                   <td><?php if($key->receiptorpay_on==1){ echo $key->le_name; }else if($key->receiptorpay_on==4){echo $key->sup_name; }else if($key->receiptorpay_on==5){echo $key->stf_name;}else{ echo $key->cus_name; } ?></td>	
                   <td><?php echo $key->narration;?></td>
                   <td><?php echo $key->amount;?></td>				  
-                  <td> 
+                  <td class="dc-action-cell"> 
 					
-					<i class="fa fa-pencil" aria-hidden="true" onclick="editthis(this.id);" id="<?php echo $key->bp_id;?>"></i>
+					<a href="javascript:void(0)" class="dc-action-link" onclick="editthis(this.id);" id="<?php echo $key->bp_id;?>" aria-label="Edit cash payment"><i class="fa fa-pencil" aria-hidden="true"></i><span>Edit</span></a>
 				 </td>
                 </tr>
 				
@@ -607,6 +639,112 @@ function validateForm() {
 	
 	 
 </script>
+
+
+<style id="cash-payment-final-design-overrides">
+/* Delivery Challan-inspired blue/white styling; presentation only */
+.content-wrapper { background:#f2f6fc !important; }
+.content-header h1 { color:#1f4e79 !important; font-weight:700; }
+.content .box {
+  border-top:3px solid #287db5 !important;
+  border-radius:10px !important;
+  box-shadow:0 5px 22px rgba(24,67,105,.09) !important;
+  overflow:hidden;
+  background:#fff;
+}
+.content .box-header { padding:15px 18px !important; border-bottom:1px solid #e5edf5; }
+.content .box-title, .content .modal-title { color:#1f4e79 !important; font-weight:700; }
+.content .box-body { padding:15px !important; }
+.content label { color:#334e68; font-weight:600; }
+.content .form-control {
+  border:1px solid #cbd7e3 !important; border-radius:5px !important;
+  box-shadow:none !important; min-height:36px;
+}
+.content .form-control:focus {
+  border-color:#287db5 !important;
+  box-shadow:0 0 0 2px rgba(40,125,181,.13) !important;
+}
+.content table.table { width:100%; background:#fff; border-collapse:collapse; margin-bottom:12px; }
+.content table.table>thead>tr>th {
+  background:#e8f2fc !important; color:#214f78 !important; font-weight:700;
+  white-space:nowrap; border:1px solid #c9d9e8 !important; padding:10px 8px; vertical-align:middle;
+}
+.content table.table>tbody>tr>td {
+  border:1px solid #d5e0ea !important; padding:8px; vertical-align:middle;
+}
+.content table.table>tbody>tr:nth-child(even) { background:#f7faff !important; }
+.content table.table>tbody>tr:hover { background:#edf6ff !important; }
+.content .btn-primary, .content .btn-info {
+  background:#287db5 !important; border-color:#287db5 !important; color:#fff !important;
+}
+.content .btn-primary:hover, .content .btn-info:hover,
+.content .btn-primary:focus, .content .btn-info:focus {
+  background:#1f6798 !important; border-color:#1f6798 !important; color:#fff !important;
+}
+.content .btn-secondary { background:#5c7894 !important; border-color:#5c7894 !important; color:#fff !important; }
+.content .btn-success { background:#287db5 !important; border-color:#287db5 !important; color:#fff !important; }
+.content .btn-success:hover { background:#1f6798 !important; border-color:#1f6798 !important; }
+.content .btn-danger { background:#d9534f !important; border-color:#d43f3a !important; color:#fff !important; }
+.content .modal-content { border:0; border-radius:8px; box-shadow:0 8px 28px rgba(20,50,80,.18); overflow:hidden; }
+.content .modal-header { background:#e8f2fc !important; border-bottom:1px solid #d4e2ef; padding:15px 20px; }
+.content .modal-footer { border-top:1px solid #e5edf5; }
+.content .modal .col-sm-4 { margin-bottom:12px; }
+.content .modal .col-sm-12[style*="margin-top: 20px"] {
+  display:flex; flex-wrap:wrap; align-items:center; gap:10px;
+  margin:18px 0 12px !important; padding:0 15px;
+}
+.content .modal .col-sm-12[style*="margin-top: 20px"] > .col-sm-2,
+.content .modal .col-sm-12[style*="margin-top: 20px"] > .col-sm-1 {
+  float:none; width:auto; padding:0; margin:0;
+}
+.content .modal .col-sm-12[style*="margin-top: 20px"] .btn {
+  margin:0 !important; border-radius:5px; padding:8px 14px;
+  min-height:34px; font-weight:600; white-space:nowrap;
+}
+.content .dc-action-link {
+  display:inline-flex; align-items:center; gap:5px; margin:2px 7px 2px 0;
+  padding:6px 9px; color:#42627f !important; background:transparent !important;
+  border:1px solid transparent; border-radius:4px; text-decoration:none !important;
+  cursor:pointer; font-size:13px; line-height:1.4; white-space:nowrap;
+}
+.content .dc-action-link:hover, .content .dc-action-link:focus {
+  color:#1769aa !important; background:#edf5fc !important;
+  border-color:#d7e6f4; text-decoration:none !important;
+}
+.content .dc-action-link .fa { margin:0 !important; }
+.content .dc-action-cell { white-space:nowrap; }
+.dataTables_wrapper .dt-buttons { display:inline-flex; flex-wrap:wrap; gap:8px; margin:0 0 14px; align-items:center; }
+.dataTables_wrapper .dt-buttons .dt-button {
+  background:#287db5 !important; background-image:none !important; color:#fff !important;
+  border:1px solid #287db5 !important; border-radius:5px !important;
+  box-shadow:0 2px 5px rgba(40,125,181,.16) !important;
+  padding:8px 16px !important; margin:0 !important; font:600 13px/1.4 inherit !important;
+  text-shadow:none !important;
+}
+.dataTables_wrapper .dt-buttons .dt-button:hover,
+.dataTables_wrapper .dt-buttons .dt-button:focus {
+  background:#1f6798 !important; border-color:#1f6798 !important; color:#fff !important;
+}
+.dataTables_wrapper .dataTables_filter input,
+.dataTables_wrapper .dataTables_length select {
+  border:1px solid #cbd7e3; border-radius:4px; padding:5px 8px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  border:1px solid #d2dfec !important; border-radius:4px !important;
+  margin:0 3px !important; background:#fff !important; color:#287db5 !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  background:#287db5 !important; border-color:#287db5 !important; color:#fff !important;
+}
+@media(max-width:767px) {
+  .content { padding:10px; }
+  .content .box-body { padding:10px !important; }
+  .content .modal-dialog { width:auto !important; margin:10px; }
+  .content table.table { min-width:850px; }
+  .content .modal .col-sm-12[style*="margin-top: 20px"] { gap:8px; }
+}
+</style>
 
 </body>
 

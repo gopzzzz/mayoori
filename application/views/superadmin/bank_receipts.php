@@ -773,7 +773,7 @@
             <div class="action-right">
 
                 <div class="divtext">
-                    <button type="button" class="btn btn-success btn-lg">
+                    <button type="button" class="btn btn-info btn-lg">
                         <i class="fa fa-print"></i> Print
                     </button>
                 </div>
@@ -781,7 +781,7 @@
                 <div class="divtext">
                     <a href="<?php echo base_url('bank_receiptslist');?>">
                         <input type="button"
-                            class="btn btn-warning btn-lg"
+                            class="btn btn-info btn-lg"
                             value="View">
                     </a>
                 </div>

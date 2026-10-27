@@ -86,6 +86,40 @@ input::-webkit-inner-spin-button {
  #myFormId table.table { min-width:1120px; }
  #myFormId .btn { margin:4px 2px; }
 }
+
+/* Consistent blue action buttons for Sales Billing Window */
+#myFormId #saveprint,
+#myFormId #saveonly,
+#myFormId a[href*="viesales_reports_list"] .btn,
+#myFormId button.reset,
+#myFormId .btn-warning,
+#myFormId .btn-success,
+#myFormId .btn-info,
+#myFormId .btn-primary,
+#myFormId .btn-default {
+    background: #1769aa !important;
+    border-color: #1769aa !important;
+    color: #fff !important;
+}
+#myFormId #saveprint:hover,
+#myFormId #saveonly:hover,
+#myFormId a[href*="viesales_reports_list"] .btn:hover,
+#myFormId button.reset:hover,
+#myFormId .btn-warning:hover,
+#myFormId .btn-success:hover,
+#myFormId .btn-info:hover,
+#myFormId .btn-primary:hover,
+#myFormId .btn-default:hover {
+    background: #10558b !important;
+    border-color: #10558b !important;
+    color: #fff !important;
+}
+#myFormId #BtnNewRow { background:#1769aa !important; border-color:#1769aa !important; color:#fff !important; }
+#myFormId #BtnNewRow:hover { background:#10558b !important; border-color:#10558b !important; }
+#myFormId .col-sm-6 > .col-sm-2,
+#myFormId .col-sm-6 > .col-sm-3,
+#myFormId .col-sm-6 > .col-sm-1 { margin-bottom:6px; }
+#myFormId .modal-content .btn { display:inline-block; margin:3px 4px 3px 0; vertical-align:middle; }
 </style>
 
 
@@ -2399,6 +2433,114 @@ return false;
 </script>
 
 
-	</body>
+	
+<style id="delivery-challan-matching-sales-window">
+/* Delivery Challan blue-and-white finish: presentation only */
+.content-wrapper { background:#f2f6fc !important; }
+.content-header h1 { color:#173b65 !important; font-weight:700 !important; }
+.content-header h1 small { color:#5c7894 !important; }
+.content > .row > .col-xs-12 > .box {
+  border-top:3px solid #287db5 !important;
+  border-radius:10px !important;
+  box-shadow:0 5px 22px rgba(24,67,105,.09) !important;
+  overflow:visible;
+  background:#fff !important;
+}
+#myFormId > .modal-content {
+  border:1px solid #d7e4f2 !important;
+  border-radius:10px !important;
+  box-shadow:0 3px 14px rgba(28,74,122,.08) !important;
+  background:#fff !important;
+}
+#myFormId .modal-header {
+  background:#287db5 !important;
+  color:#fff !important;
+  border-bottom:0 !important;
+  border-radius:9px 9px 0 0 !important;
+  padding:16px 22px !important;
+}
+#myFormId .modal-header .modal-title,
+#myFormId .modal-header h4 { color:#fff !important; font-weight:700 !important; }
+#myFormId .modal-header .close { color:#fff !important; opacity:.9; text-shadow:none; }
+#myFormId label, #myFormId label.exampleInputEmail1 {
+  color:#334e68 !important; font-weight:600 !important;
+}
+#myFormId .form-control {
+  border:1px solid #cbd7e3 !important; border-radius:5px !important;
+  box-shadow:none !important; min-height:35px; color:#243b53;
+}
+#myFormId .form-control:focus {
+  border-color:#287db5 !important;
+  box-shadow:0 0 0 2px rgba(40,125,181,.13) !important;
+}
+#myFormId input[readonly], #myFormId input:disabled { background:#eef4fa !important; }
+#myFormId table.table {
+  background:#fff; border-collapse:collapse; border-spacing:0;
+}
+#myFormId table.table thead th {
+  background:#e8f2fc !important; color:#214f78 !important;
+  border:1px solid #c9d9e8 !important; padding:10px 8px;
+  font-weight:700; white-space:nowrap; vertical-align:middle;
+}
+#myFormId table.table tbody td, #myFormId table.table tbody th {
+  border:1px solid #d5e0ea !important; padding:7px 6px; vertical-align:middle;
+}
+#myFormId table.table tbody tr:nth-child(even) { background:#f7faff; }
+#myFormId table.table tbody tr:hover { background:#edf6ff; }
+#myFormId .btn {
+  display:inline-flex; align-items:center; justify-content:center;
+  min-height:34px; border-radius:5px !important; font-weight:600;
+  box-shadow:none !important; text-decoration:none !important;
+  margin:4px 6px 4px 0 !important; padding:7px 13px !important;
+}
+#myFormId #saveprint,
+#myFormId #saveonly,
+#myFormId a[href*="viesales_reports_list"] .btn,
+#myFormId button.reset,
+#myFormId #BtnNewRow,
+#myFormId .btn-warning,
+#myFormId .btn-success,
+#myFormId .btn-info,
+#myFormId .btn-primary,
+#myFormId .btn-default {
+  background:#287db5 !important; border:1px solid #287db5 !important; color:#fff !important;
+}
+#myFormId #saveprint:hover,
+#myFormId #saveonly:hover,
+#myFormId a[href*="viesales_reports_list"] .btn:hover,
+#myFormId button.reset:hover,
+#myFormId #BtnNewRow:hover,
+#myFormId .btn-warning:hover,
+#myFormId .btn-success:hover,
+#myFormId .btn-info:hover,
+#myFormId .btn-primary:hover,
+#myFormId .btn-default:hover {
+  background:#1f6798 !important; border-color:#1f6798 !important; color:#fff !important;
+}
+/* Keep the four main actions in separate, spaced button boxes */
+#myFormId .col-sm-6 > .col-sm-2,
+#myFormId .col-sm-6 > .col-sm-3,
+#myFormId .col-sm-6 > .col-sm-1 {
+  padding-left:8px; padding-right:8px; margin-bottom:8px;
+}
+#myFormId .col-sm-12[style*="margin-top: 20px"] { margin-bottom:10px; }
+#myFormId .modal-footer { border-top:1px solid #e5edf5 !important; }
+#stockgodownmodal .modal-content {
+  border:0; border-radius:8px; overflow:hidden;
+  box-shadow:0 8px 28px rgba(20,50,80,.18);
+}
+#stockgodownmodal .modal-header { background:#e8f2fc !important; border-bottom:1px solid #d4e2ef; }
+#stockgodownmodal .modal-title { color:#214f78 !important; font-weight:700; }
+#stockgodownmodal table th { background:#e8f2fc; color:#214f78; }
+#stockgodownmodal table th, #stockgodownmodal table td { border:1px solid #d5e0ea !important; padding:9px; }
+@media(max-width:767px) {
+  .content-wrapper { overflow-x:hidden; }
+  #myFormId > .modal-content { margin:0 4px; }
+  #myFormId .btn { margin:5px 5px 5px 0 !important; }
+  #myFormId table.table { min-width:1120px; }
+}
+</style>
+
+</body>
 
 	</html>

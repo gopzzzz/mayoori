@@ -73,6 +73,42 @@
 .content .fa-eye, .content .fa-print, .content .fa-pencil, .content .fa-trash { margin: 0 5px; cursor: pointer; }
 @media (max-width: 767px) { .content { padding: 10px; } .content .modal-dialog { width: auto !important; margin: 10px; } .content .col-sm-12 { margin-bottom: 8px; } }
 </style>
+<style id="delivery-challan-modern-theme">
+/* Delivery Challan: scoped blue-and-white polish */
+.content-wrapper{background:#f2f6fc!important;}
+.content-header h1{color:#1e4f7a;font-weight:700;}
+.content .box{border-top:3px solid #287db5;border-radius:10px;box-shadow:0 5px 22px rgba(24,67,105,.09);overflow:hidden;}
+.content .box-header{padding:16px 20px;border-bottom:1px solid #e2ebf5;}
+.content .box-title{color:#1e4f7a;font-weight:700;}
+.content .box-body{padding:18px;}
+.content table.table{border-collapse:separate;border-spacing:0;min-width:900px;background:#fff;margin-bottom:0;}
+.content table.table thead th{background:#e8f2fc!important;color:#204e77;font-weight:700;border:1px solid #d0deec!important;padding:12px 10px;white-space:nowrap;}
+.content table.table tbody td{border:1px solid #dce6f0!important;padding:10px;vertical-align:middle;color:#29445f;}
+.content table.table tbody tr:nth-child(even){background:#f7faff;}
+.content table.table tbody tr:hover{background:#edf6ff;}
+.content .form-control{border:1px solid #cbd9e8;border-radius:5px;box-shadow:none;min-height:36px;}
+.content .form-control:focus{border-color:#287db5;box-shadow:0 0 0 2px rgba(40,125,181,.12);}
+.content .btn-info,.content .btn-primary,.dc-action-btn{background:#287db5!important;border-color:#287db5!important;color:#fff!important;}
+.content .btn-info:hover,.content .btn-primary:hover,.dc-action-btn:hover{background:#1e6798!important;border-color:#1e6798!important;color:#fff!important;}
+.dc-action-btn{display:inline-flex;align-items:center;gap:5px;margin:2px 3px;padding:6px 9px;border-radius:5px;font-weight:600;white-space:nowrap;}
+.content .btn-success,.content .btn-warning{background:#287db5!important;border-color:#287db5!important;color:#fff!important;}
+.content .btn-danger{background:#c83c48!important;border-color:#c83c48!important;color:#fff!important;}
+.content .modal-content{border:0;border-radius:10px;box-shadow:0 12px 35px rgba(20,50,80,.2);overflow:hidden;}
+.content .modal-header{background:#e8f2fc;border-bottom:1px solid #d5e4f2;padding:16px 22px;}
+.content .modal-title{color:#1e4f7a;font-weight:700;}
+.content .modal-body{padding:22px;}
+.content #BtnNewRow{margin-top:8px;border-radius:5px;padding:7px 16px;font-weight:600;}
+.content .table-responsive{overflow-x:auto;}
+.content .pagination{margin:10px 0 0;display:flex;flex-wrap:wrap;gap:5px;align-items:center;}
+.content .pagination a,.content .pagination strong,.content p a{display:inline-block!important;padding:7px 12px!important;margin:0 2px!important;border:1px solid #cbd9e8!important;border-radius:5px!important;background:#fff!important;color:#287db5!important;text-decoration:none!important;}
+.content .pagination a:hover,.content .pagination strong,.content p a:hover{background:#287db5!important;border-color:#287db5!important;color:#fff!important;}
+.content .dataTables_wrapper{width:100%;}
+.content .dataTables_wrapper .dataTables_info{padding-top:12px;color:#60758a;}
+.content .dataTables_wrapper .dataTables_paginate{padding-top:8px;}
+.content .dataTables_wrapper .dataTables_paginate .paginate_button{border-radius:5px!important;}
+@media(max-width:767px){.content{padding:10px!important;}.content .box-body{padding:10px;}.content .modal-dialog{width:auto!important;margin:10px;}.content .modal .col-sm-1,.content .modal .col-sm-2,.content .modal .col-sm-4,.content .modal .col-sm-6{margin-bottom:8px;}.dc-action-btn{margin:3px 2px;}}
+</style>
+
 
 
 <style>
@@ -95,7 +131,48 @@ input::-webkit-inner-spin-button {
 
 </style>
   
-  <?php $data['leftmenu']='b2billing'; echo $this->load->view('common/leftmenu',$data,true);?>
+  <style id="delivery-challan-actions-pagination-fix">
+/* Keep row actions lightweight: no filled blue button boxes */
+.content table#example2 td .dc-action-btn,
+.content table#example2 td a.dc-action-btn,
+.content table#example2 td a.btn,
+.content table#example2 td a.btn-primary {
+  display:inline-flex!important; align-items:center; justify-content:center; gap:5px;
+  background:transparent!important; background-image:none!important; color:#42627f!important;
+  border:1px solid transparent!important; box-shadow:none!important; border-radius:4px!important;
+  padding:5px 7px!important; margin:1px 3px!important; font-size:13px!important;
+  font-weight:500!important; text-decoration:none!important; white-space:nowrap;
+}
+.content table#example2 td .dc-action-btn:hover,
+.content table#example2 td a.btn:hover,
+.content table#example2 td a.btn-primary:hover {
+  color:#1769aa!important; background:#edf5fc!important; border-color:#d7e6f4!important;
+}
+.content table#example2 td .dc-action-btn .fa { margin:0 2px!important; }
+/* CodeIgniter pagination: clear, separate page-number links */
+.dc-pagination-wrap { display:flex; justify-content:flex-end; align-items:center; flex-wrap:wrap; gap:5px; padding:14px 4px 4px; }
+.dc-pagination-wrap ul { list-style:none!important; display:flex!important; flex-wrap:wrap; align-items:center; gap:5px; margin:0!important; padding:0!important; }
+.dc-pagination-wrap li { display:inline-block!important; margin:0!important; padding:0!important; }
+.dc-pagination-wrap a,
+.dc-pagination-wrap strong,
+.dc-pagination-wrap span,
+.dc-pagination-wrap li a,
+.dc-pagination-wrap li strong {
+  display:inline-flex!important; min-width:34px; min-height:34px; align-items:center; justify-content:center;
+  padding:6px 10px!important; margin:0!important; border:1px solid #d6e0ea!important;
+  border-radius:6px!important; background:#fff!important; color:#46617b!important;
+  text-decoration:none!important; font-weight:500!important; line-height:1.3!important;
+}
+.dc-pagination-wrap strong,
+.dc-pagination-wrap .active a,
+.dc-pagination-wrap .active strong { background:#287db5!important; color:#fff!important; border-color:#287db5!important; }
+.dc-pagination-wrap a:hover { background:#edf5fc!important; color:#1769aa!important; border-color:#b8d3ea!important; }
+/* Override the old broad p a rule so it does not turn every link into a button */
+.content p a { padding:0!important; border:0!important; background:transparent!important; color:#287db5!important; }
+@media(max-width:767px){.dc-pagination-wrap{justify-content:center}.content table#example2 td .dc-action-btn{padding:5px!important}}
+</style>
+
+<?php $data['leftmenu']='b2billing'; echo $this->load->view('common/leftmenu',$data,true);?>
 
   <!-- Content Wrapper. Contains page content -->
 
@@ -523,23 +600,9 @@ input::-webkit-inner-spin-button {
 				  <td><?php echo $key->deliverychellan_master_grandtotal; ?></td>
 				  <td><?php echo $key->deliverychellan_master_note; ?></td>			  
                   <td>
-				  <a href="<?php echo base_url('deliverychellan_view/').$key->deliverychellan_master_id;?>"
-
->  <i class="fa fa-eye" ></i></A>
-				  <a href="<?php echo base_url('delivery_chellanprint/').$key->deliverychellan_master_id;?>"
-
-									>&nbsp;
-
-							<li class="fa fa-print"></li> 
-
-					</a> 
-					<a href="<?php echo base_url('deliverychellan_edit/').$key->deliverychellan_master_id;?>"
-
->&nbsp;
-
-<li class="fa fa-pencil"></li> 
-
-</a> 
+				  <a class="btn btn-primary btn-xs dc-action-btn" title="View Delivery Challan" href="<?php echo base_url('deliverychellan_view/').$key->deliverychellan_master_id;?>"><i class="fa fa-eye"></i> View</a>
+				  <a class="btn btn-primary btn-xs dc-action-btn" title="Print Delivery Challan" href="<?php echo base_url('delivery_chellanprint/').$key->deliverychellan_master_id;?>"><i class="fa fa-print"></i> Print</a> 
+					<a class="btn btn-primary btn-xs dc-action-btn" title="Edit Delivery Challan" href="<?php echo base_url('deliverychellan_edit/').$key->deliverychellan_master_id;?>"><i class="fa fa-pencil"></i> Edit</a> 
 				 </td>
                 </tr>
                 <?php
@@ -547,7 +610,7 @@ input::-webkit-inner-spin-button {
 				 }
 				?>
               </table>
-			  <p><?php echo $links; ?></p>
+			  <div class="dc-pagination-wrap"><?php echo $links; ?></div>
             </div>
       
 		
@@ -1308,6 +1371,70 @@ else {
 
 
 </script>
+
+
+<style id="final-delivery-challan-button-spacing">
+/* Consistent spacing between standalone buttons */
+.content .btn,
+.content button.btn,
+.content a.btn,
+.content input.btn {
+    margin: 4px 6px 4px 0 !important;
+    border-radius: 5px !important;
+    font-weight: 600;
+    vertical-align: middle;
+}
+.content .btn-info,
+.content .btn-primary,
+.content .btn-success,
+.content .btn-warning {
+    background: #287db5 !important;
+    border-color: #287db5 !important;
+    color: #fff !important;
+}
+.content .btn-info:hover,
+.content .btn-primary:hover,
+.content .btn-success:hover,
+.content .btn-warning:hover {
+    background: #1e6798 !important;
+    border-color: #1e6798 !important;
+    color: #fff !important;
+}
+/* Keep danger actions clearly distinguishable */
+.content .btn-danger {
+    background: #c83c48 !important;
+    border-color: #c83c48 !important;
+    color: #fff !important;
+}
+.content .btn-default {
+    background: #fff !important;
+    color: #287db5 !important;
+    border: 1px solid #cbd9e8 !important;
+}
+/* Separate action controls inside table rows without making them oversized */
+.content table#example2 td a.dc-action-btn {
+    margin: 2px 4px 2px 0 !important;
+    padding: 5px 7px !important;
+    border-radius: 4px !important;
+}
+/* Give modal footer/action area room so controls never touch */
+.content .modal-footer .btn,
+.content .modal-body .btn {
+    margin: 5px 7px 5px 0 !important;
+}
+/* Keep the ADD row button distinct from the table */
+.content #BtnNewRow {
+    margin: 10px 0 4px !important;
+}
+/* Wrap button groups on narrow screens */
+@media (max-width: 767px) {
+    .content .btn,
+    .content button.btn,
+    .content a.btn {
+        margin: 4px 5px 4px 0 !important;
+    }
+}
+</style>
 
 </body>
 

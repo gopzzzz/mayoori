@@ -176,6 +176,159 @@
 @media (max-width: 767px) { .content { padding: 10px; } .content .modal-dialog { width: auto !important; margin: 10px; } .content .box-body { padding: 10px; } .content table.table { min-width: 850px; } .content .receipt-actions { gap: 7px; } }
 </style>
 
+
+<!-- Delivery Challan reference theme applied to Cash Receipt -->
+<style id="delivery-challan-style-for-cash-receipt">
+.content-wrapper { background:#f2f6fc !important; }
+.content-header h1 { color:#1e4f7a; font-weight:700; }
+.content-header h1 small { color:#66809a; }
+.content .box {
+    border-top:3px solid #287db5 !important;
+    border-radius:10px;
+    box-shadow:0 5px 22px rgba(24,67,105,.09);
+    background:#fff;
+    overflow:hidden;
+}
+.content .box-header { padding:16px 20px; border-bottom:1px solid #e2ebf5; }
+.content .box-title, .content .modal-title { color:#1e4f7a; font-weight:700; }
+.content .box-body { padding:18px; }
+.content .table-responsive { overflow-x:auto; }
+.content table#example2 {
+    width:100%;
+    min-width:850px;
+    border-collapse:separate;
+    border-spacing:0;
+    background:#fff;
+    margin-bottom:0;
+}
+.content table#example2 thead th {
+    background:#e8f2fc !important;
+    color:#204e77;
+    font-weight:700;
+    border:1px solid #d0deec !important;
+    padding:12px 10px;
+    white-space:nowrap;
+    vertical-align:middle;
+}
+.content table#example2 tbody td {
+    border:1px solid #dce6f0 !important;
+    padding:10px;
+    vertical-align:middle;
+    color:#29445f;
+}
+.content table#example2 tbody tr:nth-child(even) { background:#f7faff; }
+.content table#example2 tbody tr:hover { background:#edf6ff; }
+.content .form-control {
+    border:1px solid #cbd9e8;
+    border-radius:5px;
+    box-shadow:none;
+    min-height:36px;
+}
+.content .form-control:focus {
+    border-color:#287db5;
+    box-shadow:0 0 0 2px rgba(40,125,181,.12);
+}
+.content .modal-content {
+    border:0;
+    border-radius:10px;
+    box-shadow:0 12px 35px rgba(20,50,80,.2);
+    overflow:hidden;
+}
+.content .modal-header,
+.content .cash-receipt-header {
+    background:#e8f2fc !important;
+    border-bottom:1px solid #d5e4f2;
+    padding:16px 22px;
+}
+.content .modal-title { color:#1e4f7a; font-weight:700; }
+.content .modal-body { padding:22px; }
+.content .modal-footer { border-top:1px solid #e5edf5; background:#f8fbfe; }
+.content .receipt-field { margin-bottom:17px; }
+.content .receipt-actions {
+    display:flex;
+    flex-wrap:wrap;
+    gap:9px;
+    align-items:center;
+    margin-top:12px;
+}
+.content .receipt-actions .btn { padding:8px 13px; }
+.content .btn-info, .content .btn-primary {
+    background:#287db5;
+    border-color:#287db5;
+    color:#fff;
+}
+.content .btn-info:hover, .content .btn-primary:hover {
+    background:#1e6798;
+    border-color:#1e6798;
+}
+.content .btn-success { background:#287db5; border-color:#287db5; color:#fff; }
+.content .btn-warning { background:#287db5; border-color:#287db5; color:#fff; }
+.content .select2-container { width:100% !important; }
+.content .select2-container .select2-selection--single {
+    min-height:36px;
+    border-color:#cbd9e8 !important;
+    border-radius:5px !important;
+}
+.content .select2-container--default .select2-selection--single .select2-selection__rendered { line-height:34px; }
+.content .select2-container--default .select2-selection--single .select2-selection__arrow { height:34px; }
+.content .dataTables_wrapper .dt-buttons { display:inline-flex; flex-wrap:wrap; gap:8px; margin:0 0 14px; }
+.content .dataTables_wrapper .dt-buttons .dt-button {
+    appearance:none !important;
+    background:#287db5 !important;
+    background-image:none !important;
+    color:#fff !important;
+    border:1px solid #287db5 !important;
+    border-radius:5px !important;
+    box-shadow:0 2px 5px rgba(40,125,181,.16) !important;
+    padding:8px 16px !important;
+    margin:0 !important;
+    font-size:13px !important;
+    font-weight:600 !important;
+    text-shadow:none !important;
+}
+.content .dataTables_wrapper .dt-buttons .dt-button:hover {
+    background:#1e6798 !important;
+    border-color:#1e6798 !important;
+}
+.content .dataTables_wrapper .dataTables_info { padding-top:12px; color:#60758a; }
+.content .dataTables_wrapper .dataTables_paginate { padding-top:8px; }
+.content .dataTables_wrapper .dataTables_paginate .paginate_button { border-radius:5px !important; }
+/* Individual, lightweight action links: no filled blue boxes */
+.content table#example2 td .receipt-action {
+    display:inline-flex !important;
+    align-items:center;
+    justify-content:center;
+    gap:5px;
+    background:transparent !important;
+    background-image:none !important;
+    color:#42627f !important;
+    border:1px solid transparent !important;
+    box-shadow:none !important;
+    border-radius:4px !important;
+    padding:5px 7px !important;
+    margin:1px 3px !important;
+    font-size:13px !important;
+    font-weight:500 !important;
+    text-decoration:none !important;
+    white-space:nowrap;
+    cursor:pointer;
+}
+.content table#example2 td .receipt-action:hover {
+    color:#1769aa !important;
+    background:#edf5fc !important;
+    border-color:#d7e6f4 !important;
+}
+.content table#example2 td .receipt-action .fa { margin:0 2px !important; }
+@media(max-width:767px) {
+    .content { padding:10px !important; }
+    .content .box-body { padding:10px; }
+    .content .modal-dialog { width:auto !important; margin:10px; }
+    .content table#example2 { min-width:850px; }
+    .content .receipt-actions { gap:7px; }
+    .content table#example2 td .receipt-action { padding:5px !important; }
+}
+</style>
+
 <div class="content-wrapper">
 
   
@@ -833,12 +986,24 @@
 
                   <td><?php echo $key->narration;?></td>
                   <td><?php echo $key->amount;?></td>				  
-                  <td><?php echo anchor('del_hsn/'.$key->bp_id,'<i class="fa fa-trash" aria-hidden="true" onclick="return deletechecked();"></i>');?>  
-                    <!-- <li class="fa fa-eye" data-toggle="modal" data-target="#myModal2<?php echo $key->bp_id;?>"></li> -->
-                    <i class="fa fa-pencil" aria-hidden="true" onclick="editthis(this.id);" id="<?php echo $key->bp_id;?>">
-
-                    </i>
-                   <a href="<?php echo base_url('cashreceipt_print/'.$key->bp_id);?>"> <i class="fa fa-print"></i></a>
+                  <td>
+                    <a class="receipt-action" title="Delete Cash Receipt"
+                       href="<?php echo base_url('del_hsn/'.$key->bp_id); ?>"
+                       onclick="return deletechecked();">
+                       <i class="fa fa-trash" aria-hidden="true"></i> Delete
+                    </a>
+                    <a href="javascript:void(0);"
+                       class="receipt-action"
+                       title="Edit Cash Receipt"
+                       onclick="editthis(this.id);"
+                       id="<?php echo $key->bp_id; ?>">
+                       <i class="fa fa-pencil" aria-hidden="true"></i> Edit
+                    </a>
+                    <a class="receipt-action"
+                       title="Print Cash Receipt"
+                       href="<?php echo base_url('cashreceipt_print/'.$key->bp_id); ?>">
+                       <i class="fa fa-print" aria-hidden="true"></i> Print
+                    </a>
                   </td>
                 </tr>
 				

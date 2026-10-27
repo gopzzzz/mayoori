@@ -42,6 +42,63 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+
+/* Modern blue-and-white redesign: presentation only; existing PHP/JS remains unchanged */
+.content-wrapper { background: #f3f7fc; }
+.content-header { padding: 22px 24px 10px; }
+.content-header h1 { color:#173b68; font-size:26px; font-weight:700; letter-spacing:.2px; }
+.content-header h1 small { color:#71839a; font-size:15px; margin-left:8px; }
+.content-header .breadcrumb { background:transparent; }
+.content-header .breadcrumb a { color:#3478bd; }
+.content { padding: 0 20px 28px; }
+.content .box { border-top:0; border-radius:12px; overflow:visible; box-shadow:0 5px 22px rgba(30,64,110,.09); background:#fff; }
+.content .box-header { border-radius:12px 12px 0 0; }
+.content .box-body { padding:18px; }
+.modal-content { border:1px solid #e1eaf5; border-radius:12px; box-shadow:0 8px 28px rgba(31,64,110,.10); }
+.modal-header { padding:18px 22px; background:linear-gradient(110deg,#164e8a,#287fc0); color:#fff; border-radius:11px 11px 0 0; border-bottom:0; }
+.modal-header .modal-title { font-size:18px; font-weight:700; }
+.modal-header .close { color:#fff; opacity:.9; text-shadow:none; }
+.exampleInputEmail1, label { color:#334b66; font-weight:600; }
+.exampleInputEmail1 { font-size:11px; letter-spacing:.25px; }
+.content .form-control, .modal-content .form-control, #custsearch_modal input[type=text] { min-height:34px; border:1px solid #d4dfec; border-radius:6px; box-shadow:none; color:#243b53; background:#fff; transition:border-color .15s, box-shadow .15s; }
+.content .form-control:focus, .modal-content .form-control:focus { border-color:#3988d3; box-shadow:0 0 0 3px rgba(57,136,211,.12); }
+.content textarea.form-control { min-height:66px; resize:vertical; }
+.content input[readonly], .content input:disabled { background:#f2f6fb; color:#5e7086; }
+.content input[type=checkbox], .content input[type=radio] { accent-color:#2477bd; }
+.content .col-sm-12 { margin-bottom:8px; }
+.content .table-responsive { border:1px solid #dce6f1; border-radius:9px; background:#fff; }
+.content table.table { margin-bottom:0; border-collapse:separate; border-spacing:0; min-width:1120px; }
+.content table.table thead th { background:#eaf3fc; color:#244e79; font-size:11px; text-transform:uppercase; letter-spacing:.35px; white-space:nowrap; padding:12px 9px; border-bottom:2px solid #cbdced; border-top:0; }
+.content table.table tbody td, .content table.table tbody th { padding:8px 7px; vertical-align:middle; border-top:1px solid #edf1f6; }
+.content table.table tbody tr:hover { background:#f7fbff; }
+.content table.table tbody .form-control { min-width:68px; font-size:12px; padding:5px 7px; }
+#sales_cont .fa-search, #cust_search .fa-search { color:#2478bd; cursor:pointer; }
+#sales_cont .fa-trash { color:#d9534f; padding:7px; border-radius:5px; }
+#sales_cont .fa-trash:hover { background:#fff0ef; }
+#BtnNewRow { margin:10px 0 18px; border:0; border-radius:6px; padding:7px 20px; background:#2479bd; box-shadow:0 3px 8px rgba(36,121,189,.2); font-weight:700; }
+#BtnNewRow:hover { background:#185f9b; }
+#saveonly, .content button.btn-success { border:0; border-radius:6px; padding:8px 18px; font-weight:700; box-shadow:0 3px 8px rgba(40,167,69,.15); }
+.content button.btn-info, .content a.btn-info { border-radius:6px; }
+.content .btn { transition:transform .15s, box-shadow .15s, background .15s; }
+.content .btn:hover { transform:translateY(-1px); }
+.content .col-sm-6 { min-width:0; }
+#custsearch_modal .modal-content { padding-bottom:10px; }
+#custsearch_modal .table { min-width:0; }
+#custsearch_modal .table th { background:#eaf3fc; color:#244e79; }
+#searchbox tr { background:#edf5ff; border-color:#d7e5f4; }
+#searchModel label, #searchModel th, #searchModel .form-control, #searchModel td { font-size:12px; }
+#sales_cont .tooltip > .tooltip-inner { background:#c94545; color:#fff; border:1px solid #c94545; }
+#sales_cont .tooltip.top > .tooltip-arrow { border-top-color:#c94545; }
+@media (max-width: 767px) {
+ .content { padding:0 8px 20px; }
+ .content-header { padding:15px 12px 8px; }
+ .content-header h1 { font-size:21px; }
+ .content .box-body { padding:10px; }
+ .modal-header { padding:14px 16px; }
+ .content .col-sm-12 { margin-top:8px !important; }
+ .content table.table { min-width:1100px; }
+}
+
 </style>
 
 <?php $data['leftmenu']='saleswindow';$data['mainmenu'] = 'transaction'; echo $this->load->view('common/leftmenu',$data,true);?>

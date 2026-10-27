@@ -101,6 +101,59 @@ input::-webkit-inner-spin-button {
 @media (max-width: 767px) { .content { padding: 10px; } .content .modal-dialog { width: auto !important; margin: 10px; } .content .col-sm-12 { margin-bottom: 8px; } .content table.table { min-width: 1100px; } }
 </style>
 
+<style>
+/* View / Edit / Print actions: match the Delivery Challan reference design. */
+.content table#example21 td a.sales-action-link {
+  display: flex !important;
+  width: max-content;
+  max-width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+  background: transparent !important;
+  background-image: none !important;
+  color: #42627f !important;
+  border: 1px solid transparent !important;
+  box-shadow: none !important;
+  border-radius: 4px !important;
+  padding: 8px 9px !important;
+  margin: 2px 0 !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  text-decoration: none !important;
+  white-space: nowrap;
+  transition: color .15s ease, background-color .15s ease, border-color .15s ease;
+}
+/* Subtle outlined treatment for the first action (View), like Delivery Challan. */
+.content table#example21 td a.sales-action-link:first-of-type {
+  background: #f2f8fd !important;
+  border-color: #d5e5f4 !important;
+  color: #42627f !important;
+}
+.content table#example21 td a.sales-action-link .fa {
+  margin: 0 2px !important;
+  font-size: 14px;
+}
+.content table#example21 td a.sales-action-link:hover,
+.content table#example21 td a.sales-action-link:focus {
+  color: #1769aa !important;
+  background: #edf5fc !important;
+  border-color: #c7ddef !important;
+  text-decoration: none !important;
+  outline: none;
+}
+/* Pagination links: compact, aligned, and readable; override the global p a button style. */
+.content .box-body > p a {
+  display: inline-block; margin: 2px 3px; padding: 7px 11px; border: 1px solid #d5e0ea;
+  border-radius: 5px; background: #fff; color: #287db5; font-size: 13px;
+  line-height: 1.3; text-decoration: none;
+}
+.content .box-body > p a:hover { background: #edf6ff; border-color: #9fc5e2; color: #174f78; }
+.content .box-body > p strong { display: inline-block; margin: 2px 3px; padding: 7px 11px; border: 1px solid #287db5;
+  border-radius: 5px; background: #287db5; color: #fff; font-weight: 600; }
+@media (max-width: 767px) { .content #example21 td .sales-action-link { margin-right: 7px; } }
+</style>
+
 <div class="content-wrapper">
 
 
@@ -618,25 +671,9 @@ input::-webkit-inner-spin-button {
 								<td><p style="background-color:green;"><?php if($key->sales_created==1){echo "Converted";}?></p><p style="background-color:#1a1aff;"><?php if($key->sales_created==0){echo "Pending";}?></p><p style="background-color:red;" ><?php if($key->sales_created==2){echo "cancelled";}?></p><p style="background-color:orange;"><?php if($key->sales_created==3){echo "Partially Converted";}?></p></td>
 								<td>
 									
-										<a href="javascript:void(0)" class="viewsalesorder" data-id="<?php echo $key->sales_order_master_id;?>" data-value="<?php echo $key->sales_order_master_bill_no;?>">
-
-											<li class="fa fa-eye" ></li>
-
-										</a>
-
-								
-                                        <a href="<?php echo base_url('editsaleorder/').$key->sales_order_master_id;?>" data-id="<?php echo $key->sales_order_master_id;?>" >
-
-                                            <li class="fa fa-edit " ></li>
-
-                                        </a>
-                                  
-									 <a href="<?php echo base_url('salesorderprint/').$key->sales_order_master_id;?>"
-
-                                                    >&nbsp;
-
-                                            <li class="fa fa-print"></li> 
-                                    </a> 
+										<a href="javascript:void(0)" class="sales-action-link viewsalesorder" data-id="<?php echo $key->sales_order_master_id;?>" data-value="<?php echo $key->sales_order_master_bill_no;?>" title="View sales order"><i class="fa fa-eye" aria-hidden="true"></i><span>View</span></a>
+                                        <a class="sales-action-link" href="<?php echo base_url('editsaleorder/').$key->sales_order_master_id;?>" data-id="<?php echo $key->sales_order_master_id;?>" title="Edit sales order"><i class="fa fa-edit" aria-hidden="true"></i><span>Edit</span></a>
+                                        <a class="sales-action-link" href="<?php echo base_url('salesorderprint/').$key->sales_order_master_id;?>" title="Print sales order"><i class="fa fa-print" aria-hidden="true"></i><span>Print</span></a> 
 								</td>
 							</tr>
 							<?php

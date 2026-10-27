@@ -432,7 +432,7 @@
 
                             <div class="col-sm-1"><button type="button"
 
-                                    class="btn btn-warning btn-lg reset">Clear</button></div>
+                                    class="btn btn-primary btn-lg">Clear</button></div>
 
                             <div class="col-sm-1"><button type="button" class="btn btn-danger btn-lg">Delete</button>
 
@@ -902,7 +902,59 @@
 
 
 
-    </body>
+    
+<style>
+/* Final button spacing and consistent blue button theme */
+.content .btn,
+.content button.btn,
+.content a.btn,
+.content input.btn {
+    display: inline-block;
+    margin: 0 8px 8px 0 !important;
+    border-radius: 4px;
+    background: #287db5 !important;
+    border: 1px solid #287db5 !important;
+    color: #fff !important;
+    box-shadow: none;
+    vertical-align: middle;
+}
+.content .btn:hover,
+.content button.btn:hover,
+.content a.btn:hover,
+.content input.btn:hover,
+.content .btn:focus {
+    background: #1f6798 !important;
+    border-color: #1f6798 !important;
+    color: #fff !important;
+}
+.content #add {
+    min-width: 40px;
+    padding: 4px 12px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.content #crud_table .btn,
+.content table .btn {
+    margin: 2px 6px 2px 0 !important;
+}
+.content .box-body > .col-sm-12:last-child {
+    padding-top: 10px;
+}
+.content .box-body > .col-sm-12:last-child > [class*="col-"] {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+@media (max-width: 767px) {
+    .content .btn,
+    .content button.btn,
+    .content a.btn,
+    .content input.btn {
+        margin: 0 6px 8px 0 !important;
+    }
+}
+</style>
+
+</body>
 
 
 

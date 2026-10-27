@@ -130,7 +130,7 @@ b, strong {
 			  <thead>
 			  <div class="row">
 			  <div class="col-sm-4">
-			  <input type="text" class="form-control" id="b2bsalesaerch" placeholder="search customr name or phonenumber">
+			  <input type="text" class="form-control" id="b2bsalesaerch" placeholder="search customer name or phonenumber">
 			  </div>
 			  </div>
                 <tr>
@@ -1822,6 +1822,83 @@ else {
 
 
 </script>
+
+
+<!-- Final UI polish: separate action buttons and consistent blue/white styling -->
+<style>
+/* Keep each action link as its own clearly separated button */
+.content-wrapper table.table td a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 3px 6px 3px 0 !important;
+    padding: 7px 10px !important;
+    min-width: 32px;
+    line-height: 1.2;
+    white-space: nowrap;
+    border: 1px solid #c8dff4 !important;
+    border-radius: 6px !important;
+    background: #edf6ff !important;
+    color: #1769aa !important;
+    text-decoration: none !important;
+    box-shadow: 0 1px 2px rgba(23, 75, 120, .06);
+}
+.content-wrapper table.table td a:hover,
+.content-wrapper table.table td a:focus {
+    background: #1769aa !important;
+    color: #fff !important;
+    border-color: #1769aa !important;
+}
+.content-wrapper table.table td a .fa,
+.content-wrapper table.table td a .fa:before {
+    color: inherit !important;
+    margin: 0;
+}
+.content-wrapper .content > a {
+    display: inline-block;
+    margin: 0 0 14px;
+}
+.content-wrapper .content > a .btn,
+.content-wrapper .content .btn-info {
+    margin: 0 8px 8px 0;
+    padding: 9px 18px;
+    border-radius: 7px;
+    font-weight: 600;
+}
+.content-wrapper .box,
+.content-wrapper .box-header,
+.content-wrapper .box-body {
+    box-sizing: border-box;
+}
+.content-wrapper #b2bsalesaerch,
+.content-wrapper input.form-control,
+.content-wrapper select.form-control,
+.content-wrapper textarea.form-control {
+    border: 1px solid #cbd9e8;
+    border-radius: 5px;
+    box-shadow: none;
+}
+.content-wrapper #b2bsalesaerch:focus,
+.content-wrapper input.form-control:focus,
+.content-wrapper select.form-control:focus,
+.content-wrapper textarea.form-control:focus {
+    border-color: #3986c8;
+    outline: 0;
+    box-shadow: 0 0 0 3px rgba(57, 134, 200, .12);
+}
+.content-wrapper .pagination a,
+.content-wrapper .pagination strong {
+    display: inline-block;
+    margin: 3px 4px 3px 0;
+}
+@media (max-width: 767px) {
+    .content-wrapper table.table td a {
+        margin: 3px 4px 3px 0 !important;
+        padding: 6px 8px !important;
+    }
+}
+</style>
 
 </body>
 

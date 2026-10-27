@@ -62,6 +62,63 @@ input::-webkit-inner-spin-button {
 #sales_cont .codeItem { min-width: 100px; }
 @media (max-width: 767px) { .content { padding: 10px; } .content .col-sm-12 { margin-bottom: 8px; } .content .modal-dialog { width: auto !important; margin: 10px; } .content table.table { min-width: 1050px; } }
 </style>
+<style>
+
+/* Fix action-button layout: separate, individually boxed buttons */
+.content .col-sm-6:has(#saveprint) {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  gap: 10px !important;
+  width: 100% !important;
+  float: none !important;
+  margin: 0 !important;
+  padding: 0 15px !important;
+}
+.content .col-sm-6:has(#saveprint) > .col-sm-3,
+.content .col-sm-6:has(#saveprint) > .col-sm-1 {
+  float: none !important;
+  width: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  flex: 0 0 auto !important;
+}
+.content #saveprint,
+.content #saveonly,
+.content #BtnNewRow,
+.content button.btn-info,
+.content button.btn-warning,
+.content button.btn-danger {
+  display: inline-block;
+  min-width: 88px;
+  min-height: 38px;
+  margin: 0 !important;
+  padding: 9px 15px !important;
+  border-radius: 5px !important;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.content #saveprint,
+.content #saveonly,
+.content .btn-info,
+.content .btn-warning,
+.content #BtnNewRow {
+  background: #287db5 !important;
+  border: 1px solid #287db5 !important;
+  color: #fff !important;
+}
+.content #saveprint:hover,
+.content #saveonly:hover,
+.content .btn-info:hover,
+.content .btn-warning:hover,
+.content #BtnNewRow:hover {
+  background: #1f6798 !important;
+  border-color: #1f6798 !important;
+}
+.content button.btn-danger { background:#c9362b !important; border-color:#c9362b !important; color:#fff !important; }
+.content .btn-danger:hover { background:#a92a22 !important; border-color:#a92a22 !important; }
+
+</style>
 
 
 <?php $data['leftmenu']='salesreturn'; echo $this->load->view('common/leftmenu',$data,true);?>
@@ -403,7 +460,7 @@ input::-webkit-inner-spin-button {
 								<a href="<?php echo base_url('viewsalesreturn');?>"><button type="button" class="btn btn-info btn-sm"  data-toggle="modal" data-target="#mymodallisting">VIEW</button></a>
 							</div>
 							<div class="col-sm-1" style="margin-left:10px;">
-								<button type="button" class="btn btn-warning btn-sm reset">CLAR</button>
+								<button type="button" class="btn btn-warning btn-sm reset">CLEAR</button>
 							</div>
 							<div class="col-sm-1" style="margin-left:10px;">
 								<button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">DELETE</button>

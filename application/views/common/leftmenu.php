@@ -47,116 +47,315 @@
    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
    <style>
       
-/* Reports menu styling - isolated from other sidebar menus */
 
-.sidebar-menu > li.reports-menu {
-    border-radius: 6px;
+/* ==========================================
+   MAYOORI FURNITURES - PROFESSIONAL REPORT UI
+   ========================================== */
+
+:root {
+    --report-primary: #1976d2;
+    --report-primary-dark: #1259a7;
+    --report-bg: #f2f6fc;
+    --report-border: #e1e9f3;
+    --report-text: #23344d;
+    --report-muted: #718096;
 }
 
-.sidebar-menu > li.reports-menu > a {
+/* Main content background */
+.content-wrapper {
+    background: var(--report-bg) !important;
+}
+
+/* Page heading */
+.content-header {
+    padding: 22px 25px 16px !important;
+}
+
+.content-header h1 {
+    color: var(--report-text);
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.content-header .breadcrumb {
+    background: transparent;
+    padding-top: 8px;
+    font-size: 13px;
+}
+
+/* Report content spacing */
+.content {
+    padding: 15px 20px 25px !important;
+}
+
+/* Main report panels */
+.content .box,
+.content .panel {
+    border: 1px solid var(--report-border) !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 18px rgba(30, 60, 100, 0.06);
+    overflow: hidden;
+}
+
+.content .box {
+    border-top: 3px solid #dce7f5 !important;
+}
+
+.content .box-header {
+    padding: 18px 20px !important;
+    background: #fff;
+    border-bottom: 1px solid var(--report-border);
+}
+
+.content .box-title {
+    color: var(--report-text);
+    font-size: 19px;
+    font-weight: 700;
+}
+
+/* Report filter inputs */
+.content input[type="date"],
+.content input[type="text"],
+.content select,
+.content .form-control {
+    min-height: 39px;
+    border: 1px solid #d6e0ec;
+    border-radius: 6px;
+    box-shadow: none;
+    color: var(--report-text);
+    padding: 8px 11px;
+}
+
+.content input:focus,
+.content select:focus,
+.content .form-control:focus {
+    border-color: var(--report-primary);
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(25, 118, 210, 0.10);
+}
+
+/* Buttons */
+.content .btn {
+    border-radius: 6px;
+    padding: 9px 16px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.content .btn-primary {
+    background: var(--report-primary);
+    border-color: var(--report-primary);
+}
+
+.content .btn-primary:hover {
+    background: var(--report-primary-dark);
+    border-color: var(--report-primary-dark);
+}
+
+.content .btn-success {
+    background: #159957;
+    border-color: #159957;
+}
+
+.content .btn-default {
+    background: #fff;
+    border-color: #d9e3ef;
+    color: var(--report-text);
+}
+
+.content .btn-default:hover {
+    background: #f1f6fc;
+}
+
+/* Report tables */
+.content .table,
+.content table.dataTable {
+    width: 100% !important;
+    border-collapse: separate !important;
+    border-spacing: 0;
+    background: #fff;
+    color: var(--report-text);
+    font-size: 14px;
+}
+
+.content .table thead th,
+.content table.dataTable thead th {
+    background: #eaf2fd !important;
+    color: #203858 !important;
+    font-weight: 700;
+    padding: 13px 12px !important;
+    border-bottom: 1px solid #d5e3f4 !important;
+    border-top: none !important;
+    white-space: nowrap;
+}
+
+.content .table tbody td,
+.content table.dataTable tbody td {
+    padding: 11px 12px !important;
+    border-bottom: 1px solid #e8eef6 !important;
+    border-top: none !important;
+    vertical-align: middle;
+}
+
+.content .table tbody tr:nth-child(even),
+.content table.dataTable tbody tr:nth-child(even) {
+    background: #f7faff;
+}
+
+.content .table tbody tr:hover,
+.content table.dataTable tbody tr:hover {
+    background: #edf5ff !important;
+}
+
+/* DataTables search and pagination */
+.dataTables_wrapper .dataTables_filter input,
+.dataTables_wrapper .dataTables_length select {
+    border: 1px solid #d6e0ec;
+    border-radius: 6px;
+    padding: 6px 9px;
+    margin-left: 6px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    border-radius: 5px !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background: var(--report-primary) !important;
+    color: #fff !important;
+    border-color: var(--report-primary) !important;
+}
+
+.dataTables_wrapper .dataTables_info {
+    color: var(--report-muted);
+    padding-top: 18px;
+}
+
+/* Export controls */
+.dt-buttons .dt-button,
+button.dt-button,
+a.dt-button {
+    background: #fff !important;
+    border: 1px solid #d5e1ef !important;
+    border-radius: 6px !important;
+    color: var(--report-text) !important;
+    padding: 8px 15px !important;
+}
+
+/* Responsive tables */
+.table-responsive {
+    border: 0;
+    overflow-x: auto;
+}
+
+@media (max-width: 767px) {
+    .content {
+        padding: 10px !important;
+    }
+
+    .content-header {
+        padding: 15px !important;
+    }
+
+    .content-header h1 {
+        font-size: 21px;
+    }
+
+    .content .box-header {
+        padding: 14px !important;
+    }
+
+    .content .table,
+    .content table.dataTable {
+        font-size: 12px;
+    }
+}
+
+/* ======================================
+   PROFIT & LOSS REPORT - LAYOUT REFINEMENT
+====================================== */
+
+/* Consistent report page background */
+.content-wrapper {
+    background: #f2f6fc !important;
+}
+
+/* Report panel */
+.content .box {
+    border: 1px solid #e1e9f3 !important;
+    border-top: 3px solid #dce7f5 !important;
+    border-radius: 12px !important;
+    box-shadow: 0 5px 18px rgba(30, 60, 100, 0.06);
+    overflow: visible !important;
+}
+
+/* Remove unnecessary height from report header */
+.content .box-header {
+    padding: 15px 18px !important;
+}
+
+/* Improve report controls */
+.content .box-body {
+    padding: 15px 18px !important;
+}
+
+/* Keep form controls visually consistent */
+.content .box input[type="date"],
+.content .box select,
+.content .box input[type="text"] {
+    min-height: 40px;
+    border: 1px solid #d7e2ef;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: none;
+}
+
+/* Buttons */
+.content .box .btn {
+    min-height: 38px;
     border-radius: 6px;
     font-weight: 600;
-    transition: background-color 0.2s ease;
+    padding: 8px 16px;
 }
 
-.sidebar-menu > li.reports-menu > a:hover {
-    background-color: #344b58;
+/* Export section */
+.content .box .dt-buttons {
+    margin-bottom: 12px;
 }
 
-/* Only direct submenu levels */
-.sidebar-menu > li.reports-menu > ul.treeview-menu {
-    padding-top: 4px;
-    padding-bottom: 4px;
+/* Table heading */
+.content .box table thead th {
+    background: #eaf2fd !important;
+    color: #203858 !important;
+    font-weight: 700;
+    padding: 13px 12px !important;
+    border-bottom: 1px solid #d5e3f4 !important;
 }
 
-.sidebar-menu > li.reports-menu > ul.treeview-menu > li > a {
-    padding: 10px 10px 10px 15px;
-    line-height: 1.4;
-    white-space: normal;
+/* Table rows */
+.content .box table tbody td {
+    padding: 12px !important;
+    border-bottom: 1px solid #e8eef6 !important;
+    vertical-align: middle;
 }
 
-/* Keep nested report menus aligned */
-.sidebar-menu > li.reports-menu ul.treeview-menu ul.treeview-menu > li > a {
-    padding: 8px 8px 8px 18px;
-    line-height: 1.4;
-    white-space: normal;
+/* Keep table inside its container */
+.content .box .table-responsive {
+    width: 100%;
+    overflow-x: auto;
 }
 
-/* Hover and active states */
-.sidebar-menu > li.reports-menu .treeview-menu > li > a:hover {
-    background-color: #344b58;
-    color: #fff;
+/* Smaller screens */
+@media (max-width: 767px) {
+    .content {
+        padding: 10px !important;
+    }
+
+    .content .box-body {
+        padding: 12px !important;
+    }
 }
 
-.sidebar-menu > li.reports-menu .treeview-menu > li.active > a {
-    background-color: #337fa5;
-    color: #fff;
-}
-
-/* Final Reports sidebar spacing refinement */
-
-.sidebar-menu > li.reports-menu .treeview-menu > li > a {
-    display: block;
-    position: relative;
-    padding: 10px 25px 10px 15px;
-    line-height: 1.45;
-    white-space: normal;
-    overflow-wrap: break-word;
-}
-
-.sidebar-menu > li.reports-menu .treeview-menu > li > a > .fa:not(.pull-right) {
-    display: inline-block;
-    width: 18px;
-    margin-right: 5px;
-    text-align: center;
-}
-
-.sidebar-menu > li.reports-menu .treeview-menu > li > a > .pull-right-container {
-    position: absolute;
-    right: 8px;
-    top: 10px;
-    margin: 0;
-    padding: 0;
-}
-
-.sidebar-menu > li.reports-menu .treeview-menu > li > a > .pull-right-container > .fa {
-    font-size: 12px;
-}
-
-.sidebar-menu > li.reports-menu .treeview-menu > li > a:hover {
-    color: #ffffff;
-    background: #344b58;
-}
-
-.sidebar-menu > li.reports-menu .treeview-menu > li.active > a {
-    background: #337fa5;
-    color: #ffffff;
-}
-
-/* Compact Reports submenu styling */
-
-.sidebar-menu > li.reports-menu ul.treeview-menu > li > a {
-    min-height: 36px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    line-height: 1.4;
-    border-radius: 4px;
-}
-
-.sidebar-menu > li.reports-menu ul.treeview-menu > li.active > a {
-    background-color: #344b58;
-    color: #ffffff;
-    border-left: 3px solid #3c9ac4;
-}
-
-.sidebar-menu > li.reports-menu ul.treeview-menu > li > a:hover {
-    background-color: #344b58;
-    color: #ffffff;
-}
-
-.sidebar-menu > li.reports-menu ul.treeview-menu > li > a .pull-right-container {
-    right: 8px;
-}
 
    </style>
 </head>

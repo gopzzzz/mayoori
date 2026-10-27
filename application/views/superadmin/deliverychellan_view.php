@@ -36,6 +36,48 @@
 	#sales_cont .tooltip.top > .tooltip-arrow {
 	border-top: 5px solid red;
 	}
+
+
+/* Modern blue-and-white redesign: presentation only */
+.content-wrapper { background:#f4f7fb; }
+.content-header { padding:20px 24px 8px; }
+.content-header h1 { color:#17365d; font-weight:700; letter-spacing:.2px; }
+.content-header h1 small { color:#4776a8; font-weight:600; }
+.content-header .breadcrumb { background:transparent; }
+.content { padding:0 20px 28px; }
+.content .box { border-top:3px solid #2f6fb2; border-radius:10px; box-shadow:0 3px 16px rgba(27,61,97,.08); overflow:hidden; }
+.content .box-header { padding:16px 20px; }
+.content .box-body { padding:18px; }
+.modal-content.salesedit_content, .content .modal-content { border:1px solid #e1eaf4; border-radius:9px; box-shadow:none; }
+.modal-header { padding:16px 20px; background:#f0f6fd; border-bottom:1px solid #dce8f5; border-radius:8px 8px 0 0; }
+.modal-title { color:#214f80; font-size:18px; font-weight:700; }
+.content h4:not(.modal-title) { color:#214f80; font-weight:700; font-size:15px; border-bottom:1px solid #dce8f5; padding-bottom:9px; margin:8px 0 14px; }
+.content label { color:#42566d; font-size:11px; font-weight:700; line-height:1.45; text-transform:uppercase; }
+.content .form-control { min-height:34px; border:1px solid #d5dfeb; border-radius:5px; box-shadow:none; color:#26384b; background:#fff; font-size:12px; transition:border-color .15s, box-shadow .15s; }
+.content .form-control:focus { border-color:#4c8ed4; box-shadow:0 0 0 2px rgba(76,142,212,.12); }
+.content textarea.form-control { min-height:58px; resize:vertical; }
+.content input[type=checkbox], .content input[type=radio] { accent-color:#2f6fb2; }
+#sales_cont { background:#fff; }
+#sales_cont tr { transition:background .15s; }
+#sales_cont tr:hover { background:#f5f9fe; }
+.content table.table { border:1px solid #dce6f1; border-radius:7px; border-collapse:separate; border-spacing:0; margin-bottom:12px; }
+.content table.table thead th { background:#eaf2fb; color:#234d78; font-size:10px; font-weight:700; white-space:nowrap; padding:11px 8px; border-bottom:2px solid #d3e2f2; }
+.content table.table tbody td, .content table.table tbody th { vertical-align:middle; padding:7px 6px; border-top:1px solid #e8eef5; }
+.content table.table .form-control { min-width:65px; padding:5px 7px; }
+.content .fa-floppy-o { color:#247a55; }
+.content .detailEraseRow { color:#3978b8; }
+.content .detailDeleteRow, .content .detailDeleteRow1 { color:#c44848; }
+.content .fa-floppy-o, .content .detailEraseRow, .content .detailDeleteRow, .content .detailDeleteRow1 { padding:5px; border-radius:4px; }
+.content .fa-floppy-o:hover, .content .detailEraseRow:hover, .content .detailDeleteRow:hover, .content .detailDeleteRow1:hover { background:#eaf2fb; }
+.content .modal-footer { border-top:1px solid #e5edf5; }
+@media (max-width:767px) {
+ .content { padding:0 8px 18px; }
+ .content-header { padding:14px 10px 5px; }
+ .content .box-body { padding:10px; }
+ .content .col-sm-1, .content .col-sm-2, .content .col-sm-4, .content .col-sm-6 { margin-bottom:7px; }
+ .content table.table { min-width:980px; }
+}
+
 </style>
 
 <?php $data['leftmenu']='saleswindow';$data['mainmenu'] = 'transaction'; echo $this->load->view('common/leftmenu',$data,true);?>

@@ -77,6 +77,101 @@ b, strong {
 .content .pagination>li>a,.content .pagination>li>span{color:#287db5;border-color:#d5e0ea;}
 .content .pagination>.active>a,.content .pagination>.active>span{background:#287db5;border-color:#287db5;color:#fff;}
 @media(max-width:767px){.content{padding:10px;}.content .modal-dialog{width:auto!important;margin:10px;}.content table.table{min-width:1050px;}}
+
+/* Purchase View/Edit actions: match the final Delivery Challan action-button design (no filled blue boxes) */
+#purchasebody td:last-child { white-space: nowrap; vertical-align: middle; }
+#purchasebody td:last-child a.dc-action-btn,
+#purchasebody td:last-child a.btn,
+#purchasebody td:last-child a.btn-primary {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 5px !important;
+    background: transparent !important;
+    background-image: none !important;
+    color: #42627f !important;
+    border: 1px solid transparent !important;
+    box-shadow: none !important;
+    border-radius: 4px !important;
+    padding: 5px 7px !important;
+    margin: 1px 3px !important;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    line-height: 1.4 !important;
+    text-decoration: none !important;
+    white-space: nowrap;
+}
+#purchasebody td:last-child a.dc-action-btn:hover,
+#purchasebody td:last-child a.dc-action-btn:focus,
+#purchasebody td:last-child a.btn:hover,
+#purchasebody td:last-child a.btn-primary:hover {
+    color: #1769aa !important;
+    background: #edf5fc !important;
+    border-color: #d7e6f4 !important;
+}
+#purchasebody td:last-child a.dc-action-btn .fa,
+#purchasebody td:last-child a.btn .fa {
+    color: inherit !important;
+    font-size: 13px;
+    line-height: 1;
+    margin: 0 2px !important;
+}
+/* Separate, compact pagination links like the Delivery Challan page */
+.dc-pagination-wrap {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 14px 4px 4px;
+}
+.dc-pagination-wrap ul {
+    list-style: none !important;
+    display: flex !important;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.dc-pagination-wrap li { display: inline-block !important; margin: 0 !important; padding: 0 !important; }
+.dc-pagination-wrap a,
+.dc-pagination-wrap strong,
+.dc-pagination-wrap span,
+.dc-pagination-wrap li a,
+.dc-pagination-wrap li strong {
+    display: inline-flex !important;
+    min-width: 34px;
+    min-height: 34px;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 10px !important;
+    margin: 0 !important;
+    border: 1px solid #d6e0ea !important;
+    border-radius: 6px !important;
+    background: #fff !important;
+    color: #46617b !important;
+    text-decoration: none !important;
+    font-weight: 500 !important;
+    line-height: 1.3 !important;
+}
+.dc-pagination-wrap strong,
+.dc-pagination-wrap .active a,
+.dc-pagination-wrap .active strong {
+    background: #287db5 !important;
+    color: #fff !important;
+    border-color: #287db5 !important;
+}
+.dc-pagination-wrap a:hover {
+    background: #edf5fc !important;
+    color: #1769aa !important;
+    border-color: #b8d3ea !important;
+}
+.content p a { padding: 0 !important; border: 0 !important; background: transparent !important; color: #287db5 !important; }
+@media(max-width:767px) {
+    .dc-pagination-wrap { justify-content: center; }
+    #purchasebody td:last-child a.dc-action-btn { padding: 5px !important; }
+}
 </style>
 <div class="content-wrapper">
 
@@ -460,8 +555,8 @@ b, strong {
 									  
 						 <td>
 						
-						<a href="javascript:void(0)" class="viewpurchase" data-id="<?php echo $key->purchase_master_id;?>"><li class="fa fa-eye" ></li></a>
-						<a href="<?php echo base_url('purchaseeditnew/'.$key->purchase_master_id);?>"><li class="fa fa-pencil" ></li></a>
+						<a class="btn btn-primary btn-xs dc-action-btn viewpurchase" title="View Purchase" href="javascript:void(0)" data-id="<?php echo $key->purchase_master_id;?>"><i class="fa fa-eye"></i> View</a>
+						<a class="btn btn-primary btn-xs dc-action-btn" title="Edit Purchase" href="<?php echo base_url('purchaseeditnew/'.$key->purchase_master_id);?>"><i class="fa fa-pencil"></i> Edit</a>
 						
 						</td>
 						</tr>
@@ -471,7 +566,7 @@ b, strong {
 					?>
 					</tbody>
               </table>
-			  <p><?php echo $links; ?></p>
+			  <div class="dc-pagination-wrap"><?php echo $links; ?></div>
             </div>
         
 

@@ -121,6 +121,52 @@ input::-webkit-inner-spin-button {
 }
 </style>
 
+<style>
+/* Quotation Bill: make every button blue and keep buttons separated */
+.content-wrapper .btn,
+.content-wrapper .btn-info,
+.content-wrapper .btn-primary,
+.content-wrapper .btn-success,
+.content-wrapper .btn-warning,
+.content-wrapper .btn-default {
+    background: #2463a6 !important;
+    border: 1px solid #2463a6 !important;
+    color: #fff !important;
+    border-radius: 5px !important;
+    box-shadow: none !important;
+}
+.content-wrapper .btn:hover,
+.content-wrapper .btn:focus {
+    background: #174a86 !important;
+    border-color: #174a86 !important;
+    color: #fff !important;
+}
+
+/* Separate the bottom action buttons into individual boxes */
+.content-wrapper .col-sm-12[style*="margin-top: 20px"] > .col-sm-6 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.content-wrapper .col-sm-12[style*="margin-top: 20px"] > .col-sm-6 > .col-sm-2,
+.content-wrapper .col-sm-12[style*="margin-top: 20px"] > .col-sm-6 > .col-sm-1 {
+    float: none !important;
+    width: auto !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+}
+.content-wrapper .col-sm-12[style*="margin-top: 20px"] > .col-sm-6 .btn {
+    display: inline-block;
+    margin: 0 !important;
+    padding: 8px 14px;
+    white-space: nowrap;
+}
+</style>
+
+
+
 
 <?php
 /*** begin the session ***/

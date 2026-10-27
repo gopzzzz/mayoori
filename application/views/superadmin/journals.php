@@ -86,6 +86,60 @@
       .footer { flex-wrap: wrap; justify-content: flex-start; }
     }
 
+
+    /* All Journal buttons: blue, separate individual boxes */
+    .content-wrapper .btn,
+    .content-wrapper .btn-primary,
+    .content-wrapper .btn-success,
+    .content-wrapper .btn-warning,
+    .content-wrapper .btn-danger,
+    .content-wrapper #add,
+    .content-wrapper .table_journal .remove {
+        background: #2463a6 !important;
+        border: 1px solid #2463a6 !important;
+        color: #fff !important;
+        border-radius: 5px !important;
+        box-shadow: none !important;
+    }
+
+    .content-wrapper .btn:hover,
+    .content-wrapper .btn:focus,
+    .content-wrapper #add:hover,
+    .content-wrapper .table_journal .remove:hover {
+        background: #174a86 !important;
+        border-color: #174a86 !important;
+        color: #fff !important;
+    }
+
+    /* Keep footer buttons apart as individual buttons */
+    .content-wrapper .footer {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+
+    .content-wrapper .footer > a {
+        display: inline-block;
+        margin: 0 !important;
+        padding: 0;
+    }
+
+    .content-wrapper .footer .btn {
+        display: inline-block;
+        float: none !important;
+        margin: 0 !important;
+        padding: 9px 20px;
+        white-space: nowrap;
+    }
+
+    .content-wrapper #add,
+    .content-wrapper .table_journal .remove {
+        min-width: 34px;
+        padding: 5px 10px;
+    }
+
     </style>
     <br>
     <!-- Main content -->

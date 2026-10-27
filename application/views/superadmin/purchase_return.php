@@ -44,6 +44,13 @@ b, strong {
     font-weight: 700;
     margin: 10px;
 }
+/* Keep ordinary content links from inheriting the generic blue box style. */
+.content p a:not(.dc-action-btn) {
+    color: inherit;
+    padding: initial;
+    border: 0;
+    background: transparent;
+}
 </style>
 
   <?php $data['leftmenu']='purchase'; echo $this->load->view('common/leftmenu',$data,true);?>
@@ -119,6 +126,48 @@ b, strong {
 .content #sales_cont .tooltip > .tooltip-inner { background-color: #f25252; color: #fff; border: 1px solid red; }
 .content #sales_cont .tooltip.top > .tooltip-arrow { border-top-color: red; }
 @media (max-width: 767px) { .content { padding: 10px; } .content .modal-dialog { width: auto !important; margin: 10px; } .content .col-sm-12 { margin-bottom: 8px; } .content table.table { min-width: 1000px; } }
+</style>
+
+<!-- Delivery Challan-style action links: no filled blue button background -->
+<style id="debit-note-action-style">
+.content .dc-action-actions {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+}
+.content a.dc-action-btn,
+.content a.dc-action-btn:visited {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px 8px !important;
+    margin: 2px 3px 2px 0 !important;
+    color: #42627f !important;
+    background: transparent !important;
+    background-image: none !important;
+    border: 1px solid transparent !important;
+    border-radius: 4px !important;
+    box-shadow: none !important;
+    text-decoration: none !important;
+    font-size: 13px;
+    line-height: 1.4;
+    font-weight: 500;
+    transition: background-color .15s ease, border-color .15s ease, color .15s ease;
+}
+.content a.dc-action-btn i,
+.content a.dc-action-btn .fa {
+    margin: 0 2px;
+}
+.content a.dc-action-btn:hover,
+.content a.dc-action-btn:focus {
+    color: #1769aa !important;
+    background: #edf5fc !important;
+    border-color: #d7e6f4 !important;
+    text-decoration: none !important;
+    outline: none;
+}
 </style>
 
   <div class="content-wrapper">
@@ -566,15 +615,9 @@ b, strong {
 				  <td><?php echo $key->purreturn_master_grandtotal; ?></td>
 				  <td><?php echo $key->purreturn_master_ref_no; ?></td>			  
                   <td>
-				  <a href="<?php echo base_url('purchasereturn_edit/').$key->purreturn_master_id;?>" class="#" ><i class="fa fa-pencil"></i></a>
+				  <a href="<?php echo base_url('purchasereturn_edit/').$key->purreturn_master_id;?>" class="dc-action-btn" title="Edit"><i class="fa fa-pencil"></i> Edit</a>
 
-				  <a href="<?php echo base_url('purchaseretuenprint/').$key->purreturn_master_id;?>"
-
->&nbsp;
-
-<li class="fa fa-print"></li> 
-
-</a> 
+                  <a href="<?php echo base_url('purchaseretuenprint/').$key->purreturn_master_id;?>" class="dc-action-btn" title="Print"><i class="fa fa-print"></i> Print</a> 
 				 </td>
                 </tr>
                 <?php

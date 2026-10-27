@@ -7,7 +7,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'=>'',
-	 'port'=>'3307',
+	 'port'=>'3306',
 	 'hostname'=>'localhost',
 	 'database' => 'mayoori',
 	 'username' => 'root',

@@ -42,6 +42,136 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+
+
+/* Mayoori Furnitures - clean edit form styling (presentation only) */
+.content-wrapper { background:#f3f6fb; }
+.content-wrapper .content-header { padding:22px 24px 12px; }
+.content-wrapper .content-header h1 { color:#20354a; font-weight:600; }
+.content-wrapper .content { padding:18px 22px 30px; }
+.content-wrapper .box { border-top:0; border-radius:12px; box-shadow:0 5px 22px rgba(27,55,86,.08); overflow:hidden; }
+.content-wrapper .box-body { padding:18px; }
+.content-wrapper .modal-content { border:1px solid #e2e9f2; border-radius:12px; box-shadow:0 4px 18px rgba(30,58,90,.06); background:#fff; overflow:hidden; }
+.content-wrapper .modal-header { background:#fff; border-bottom:1px solid #e7edf5; padding:20px 24px; }
+.content-wrapper .modal-title { color:#243b53; font-size:21px; font-weight:600; }
+.content-wrapper h4 { color:#2c4b68; font-size:16px; font-weight:600; margin:18px 0 14px; padding-bottom:9px; border-bottom:1px solid #edf1f6; }
+.content-wrapper label.exampleInputEmail1 { color:#40546a; font-size:11px; font-weight:700; line-height:1.45; letter-spacing:.2px; }
+.content-wrapper .form-control { min-height:38px; border:1px solid #d7e0eb; border-radius:6px; box-shadow:none; color:#25384b; background:#fff; padding:8px 11px; transition:border-color .15s, box-shadow .15s; }
+.content-wrapper textarea.form-control { min-height:64px; }
+.content-wrapper .form-control:focus { border-color:#8baacb; box-shadow:0 0 0 3px rgba(67,115,165,.10); }
+.content-wrapper input[readonly], .content-wrapper input:disabled { background:#f6f8fb; color:#536579; }
+.content-wrapper .table-responsive { border:1px solid #e0e8f1; border-radius:8px; }
+.content-wrapper table.table { margin-bottom:0; min-width:900px; }
+.content-wrapper table.table thead th { background:#f2f6fb; color:#294560; font-size:11px; font-weight:700; letter-spacing:.35px; padding:13px 10px; border:1px solid #dce5ef; white-space:nowrap; }
+.content-wrapper table.table tbody td, .content-wrapper table.table tbody th { padding:10px 8px; vertical-align:middle; border-color:#e6edf5; }
+.content-wrapper table.table tbody tr:nth-child(even) { background:#fbfcfe; }
+.content-wrapper table.table tbody tr:hover { background:#f4f8fc; }
+.content-wrapper table.table .form-control { min-width:70px; }
+.content-wrapper .btn { border-radius:6px; font-weight:600; letter-spacing:.2px; padding:8px 15px; box-shadow:none; transition:background .15s,border-color .15s,color .15s; }
+/* Neutral buttons: no solid blue/green/orange fills */
+.content-wrapper .btn-info, .content-wrapper .btn-primary, .content-wrapper .btn-success,
+.content-wrapper .btn-warning, .content-wrapper .btn-Warning, .content-wrapper .btn-default {
+  background:#fff !important; color:#315f8d !important; border:1px solid #cbd8e6 !important;
+}
+.content-wrapper .btn-info:hover, .content-wrapper .btn-primary:hover, .content-wrapper .btn-success:hover,
+.content-wrapper .btn-warning:hover, .content-wrapper .btn-Warning:hover, .content-wrapper .btn-default:hover {
+  background:#f1f6fb !important; color:#234b73 !important; border-color:#9fb6cf !important;
+}
+.content-wrapper #BtnNewRow { margin:12px 0 4px; }
+.content-wrapper #saveonly, .content-wrapper a[href*="delivery_chellanprint"] button { min-width:92px; }
+.content-wrapper .modal-footer { border-top:1px solid #edf1f6; }
+.content-wrapper .close { color:#718096; opacity:.7; text-shadow:none; }
+.content-wrapper .close:hover { color:#20354a; opacity:1; }
+@media (max-width:767px) {
+ .content-wrapper .content { padding:10px; }
+ .content-wrapper .box-body { padding:10px; }
+ .content-wrapper .modal-header { padding:16px; }
+ .content-wrapper .col-sm-12[style*="margin-top"] { margin-top:12px !important; }
+ .content-wrapper .form-control { font-size:13px; }
+}
+
+
+/* Enhanced Sale Preview page - visual styling only; keep existing PHP and JS intact */
+.content-wrapper { background: #f4f7fb; min-height: 100vh; }
+.content-wrapper .content-header { padding: 22px 24px 12px; }
+.content-wrapper .content-header h1 { margin: 0; color: #203b56; font-size: 27px; font-weight: 700; letter-spacing: -.3px; }
+.content-wrapper .content-header h1 small { color: #7a8da3; font-size: 15px; margin-left: 7px; }
+.content-wrapper .breadcrumb { background: transparent; padding: 8px 0; }
+.content-wrapper .content { padding: 16px 22px 30px; }
+.content-wrapper .box { border: 1px solid #e3eaf3; border-top: 0; border-radius: 13px; box-shadow: 0 7px 24px rgba(27,55,86,.07); overflow: hidden; background: #fff; }
+.content-wrapper .box-header { padding: 12px 18px; }
+.content-wrapper .box-body { padding: 18px; }
+.content-wrapper .modal-content { border: 1px solid #e0e8f2; border-radius: 12px; box-shadow: 0 4px 18px rgba(30,58,90,.06); background: #fff; overflow: hidden; }
+.content-wrapper .modal-header { background: linear-gradient(90deg,#f5f9fe 0%,#fff 75%); border-bottom: 1px solid #e5edf6; padding: 18px 22px; }
+.content-wrapper .modal-title { color: #233f5b; font-size: 20px; font-weight: 700; }
+.content-wrapper h4 { color: #2d5275; font-size: 15px; font-weight: 700; margin: 18px 0 14px; padding: 0 0 9px; border-bottom: 1px solid #e8eef5; }
+.content-wrapper label.exampleInputEmail1 { display: inline-block; color: #40566c; font-size: 11px; font-weight: 700; line-height: 1.45; letter-spacing: .15px; }
+.content-wrapper .form-control { min-height: 37px; border: 1px solid #d5e0ec; border-radius: 6px; box-shadow: none; color: #25384b; background: #fff; padding: 8px 10px; transition: border-color .15s, box-shadow .15s; }
+.content-wrapper textarea.form-control { min-height: 64px; resize: vertical; }
+.content-wrapper .form-control:focus { border-color: #7ea5cf; box-shadow: 0 0 0 3px rgba(61,116,174,.11); }
+.content-wrapper input[readonly], .content-wrapper input:disabled { background: #f4f7fa; color: #536579; }
+.content-wrapper .table-responsive { border: 1px solid #e0e8f1; border-radius: 8px; margin: 14px 0; }
+.content-wrapper table.table { margin-bottom: 0; min-width: 950px; }
+.content-wrapper table.table thead th { background: #edf4fb; color: #294965; font-size: 10px; font-weight: 800; letter-spacing: .35px; padding: 12px 9px; border: 1px solid #dbe6f1; white-space: nowrap; }
+.content-wrapper table.table tbody td, .content-wrapper table.table tbody th { padding: 9px 8px; vertical-align: middle; border-color: #e6edf5; }
+.content-wrapper table.table tbody tr:nth-child(even) { background: #fafcff; }
+.content-wrapper table.table tbody tr:hover { background: #f0f6fc; }
+.content-wrapper table.table .form-control { min-width: 65px; }
+.content-wrapper .btn { border-radius: 6px; font-weight: 700; letter-spacing: .1px; padding: 8px 14px; box-shadow: none; transition: background .15s,border-color .15s,color .15s; }
+.content-wrapper .btn-info, .content-wrapper .btn-primary, .content-wrapper .btn-success, .content-wrapper .btn-warning, .content-wrapper .btn-Warning, .content-wrapper .btn-default { background: #fff !important; color: #315f8d !important; border: 1px solid #c8d8e8 !important; }
+.content-wrapper .btn-info:hover, .content-wrapper .btn-primary:hover, .content-wrapper .btn-success:hover, .content-wrapper .btn-warning:hover, .content-wrapper .btn-Warning:hover, .content-wrapper .btn-default:hover { background: #edf5fc !important; color: #234b73 !important; border-color: #9db7d2 !important; }
+.content-wrapper #BtnNewRow { margin: 10px 0 4px; }
+.content-wrapper #saveonly { min-width: 100px; }
+.content-wrapper .fa-trash, .content-wrapper .fa-floppy-o { color: #567b9f; }
+.content-wrapper .fa-trash:hover { color: #b94b50; }
+.content-wrapper .modal-footer { border-top: 1px solid #e8eef5; }
+.content-wrapper .close { color: #718096; opacity: .7; text-shadow: none; }
+.content-wrapper .close:hover { color: #20354a; opacity: 1; }
+@media (max-width: 767px) {
+ .content-wrapper .content { padding: 10px; }
+ .content-wrapper .content-header { padding: 15px 12px 8px; }
+ .content-wrapper .content-header h1 { font-size: 22px; }
+ .content-wrapper .box-body { padding: 10px; }
+ .content-wrapper .modal-header { padding: 15px; }
+ .content-wrapper .col-sm-12[style*="margin-top"] { margin-top: 12px !important; }
+ .content-wrapper .form-control { font-size: 13px; }
+}
+
+
+
+/* Requested button colors: ADD = blue; ADD ON and PRINT = green */
+.content-wrapper #BtnNewRow {
+    background: #1976d2 !important;
+    color: #ffffff !important;
+    border: 1px solid #1565c0 !important;
+    border-radius: 6px;
+    font-weight: 700;
+    padding: 9px 18px;
+}
+.content-wrapper #BtnNewRow:hover,
+.content-wrapper #BtnNewRow:focus {
+    background: #125eaa !important;
+    color: #ffffff !important;
+    border-color: #0d5196 !important;
+}
+.content-wrapper #saveonly,
+.content-wrapper a[href*="delivery_chellanprint"] button {
+    background: #2e9d59 !important;
+    color: #ffffff !important;
+    border: 1px solid #25834a !important;
+    border-radius: 6px;
+    font-weight: 700;
+    padding: 9px 18px;
+}
+.content-wrapper #saveonly:hover,
+.content-wrapper #saveonly:focus,
+.content-wrapper a[href*="delivery_chellanprint"] button:hover,
+.content-wrapper a[href*="delivery_chellanprint"] button:focus {
+    background: #237c45 !important;
+    color: #ffffff !important;
+    border-color: #1c6b3a !important;
+}
+
 </style>
 
 <?php $data['leftmenu']='saleswindow';$data['mainmenu'] = 'transaction'; echo $this->load->view('common/leftmenu',$data,true);?>

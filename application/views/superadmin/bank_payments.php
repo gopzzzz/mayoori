@@ -22,10 +22,34 @@
 .content .form-control:focus{border-color:#3c8dbc;box-shadow:0 0 0 2px rgba(60,141,188,.12);}
 .content textarea.form-control{min-height:70px;}
 .content .btn-primary,.content .btn-info,.content .btn-success,.content .btn-warning{border-radius:4px;box-shadow:none;font-weight:600;}
-.content .btn-primary{background:#287db5;border-color:#287db5;}
-.content .btn-primary:hover{background:#1f6798;border-color:#1f6798;}
-.content .btn-success{background:#25866a;border-color:#25866a;}
-.content .btn-info{background:#358db5;border-color:#358db5;}
+/* Use blue for every action button; keep delete/danger buttons red. */
+.content .btn-primary,
+.content .btn-info,
+.content .btn-success,
+.content .btn-warning {
+    background: #287db5;
+    border-color: #287db5;
+    color: #fff;
+}
+.content .btn-primary:hover,
+.content .btn-info:hover,
+.content .btn-success:hover,
+.content .btn-warning:hover,
+.content .btn-primary:focus,
+.content .btn-info:focus,
+.content .btn-success:focus,
+.content .btn-warning:focus {
+    background: #1f6798;
+    border-color: #1f6798;
+    color: #fff;
+}
+.content .btn-danger,
+.content .btn-danger:hover,
+.content .btn-danger:focus {
+    background: #d9534f;
+    border-color: #d43f3a;
+    color: #fff;
+}
 .content table.table{width:100%;background:#fff;border-collapse:collapse;margin-bottom:12px;}
 .content table.table>thead>tr>th{background:#eaf3fb;color:#214f78;font-weight:700;white-space:nowrap;border:1px solid #c9d9e8!important;padding:10px 8px;vertical-align:middle;}
 .content table.table>tbody>tr>td{border:1px solid #d5e0ea!important;padding:8px;vertical-align:middle;}
@@ -38,6 +62,44 @@
 #ac_grouplist{background:#fff;border:1px solid #d5e0ea;border-radius:4px;}
 @media(max-width:767px){.content{padding:10px;}.content .box-body{padding:10px;}.content .divtext{margin-top:8px;}.content .btn-lg{font-size:14px;padding:8px 10px;margin-bottom:6px;}.content .modal-dialog{width:auto!important;margin:10px;}.content table.table{min-width:850px;}}
 </style>
+
+<style id="bank-payments-button-spacing">
+/* Keep each bank-payment action in its own clearly separated button box. */
+.content .bank-payment-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+.content .bank-payment-actions > div {
+    float: none;
+    width: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+.content .bank-payment-actions .btn {
+    margin: 0;
+    border-radius: 5px;
+    box-shadow: none;
+    font-weight: 600;
+    padding: 8px 14px;
+}
+.content .bank-payment-actions .btn-warning {
+    background: #287db5;
+    color: #fff;
+    border: 1px solid #287db5;
+}
+.content .bank-payment-actions .btn-warning:hover,
+.content .bank-payment-actions .btn-warning:focus,
+.content .bank-payment-actions .btn-primary:hover,
+.content .bank-payment-actions .btn-info:hover,
+.content .bank-payment-actions .btn-success:hover {
+    background: #1f6798;
+    color: #fff;
+    border-color: #1f6798;
+}
+</style>
+
 
 <div class="content-wrapper">
 
@@ -400,7 +462,7 @@
 
             </div>
 
-            <div class="col-sm-12">
+            <div class="col-sm-12 bank-payment-actions">
 
             <div class="col-sm-3 divtext"><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Create Ledger</buuton></div>
 
@@ -1208,6 +1270,72 @@ $('#ledgerbalance').val(0);
   </script>
 
 
+
+
+<style id="delivery-challan-matching-final-style">
+/* Delivery Challan-inspired blue/white styling for Bank Payments */
+.content-wrapper{background:#f2f6fc!important;}
+.content-header h1{color:#214f78!important;font-weight:700;letter-spacing:.2px;}
+.content-header h1 small{color:#607d98!important;}
+.content .box{
+  background:#fff!important;border-top:3px solid #287db5!important;
+  border-radius:10px!important;box-shadow:0 5px 22px rgba(24,67,105,.09)!important;
+  overflow:hidden;
+}
+.content .box-header{padding:15px 18px!important;border-bottom:1px solid #e2ebf4!important;}
+.content .box-title,.content .modal-title{color:#214f78!important;font-weight:700!important;}
+.content .box-body{padding:15px!important;margin:0!important;}
+.content .divtext{margin-top:14px!important;margin-bottom:8px!important;}
+.content label{color:#334e68!important;font-weight:600!important;}
+.content .form-control{border:1px solid #cbd7e3!important;border-radius:5px!important;box-shadow:none!important;min-height:36px;}
+.content .form-control:focus{border-color:#287db5!important;box-shadow:0 0 0 2px rgba(40,125,181,.13)!important;}
+.content table.table,.content table#example2{background:#fff;border-collapse:collapse;}
+.content table.table>thead>tr>th,.content table#example2>thead>tr>th{
+  background:#e8f2fc!important;color:#214f78!important;font-weight:700!important;
+  white-space:nowrap;border:1px solid #c9d9e8!important;padding:10px 8px!important;
+}
+.content table.table>tbody>tr>td,.content table#example2>tbody>tr>td{
+  border:1px solid #d5e0ea!important;padding:8px!important;vertical-align:middle;
+}
+.content table.table>tbody>tr:nth-child(even),.content table#example2>tbody>tr:nth-child(even){background:#f7faff!important;}
+.content table.table>tbody>tr:hover,.content table#example2>tbody>tr:hover{background:#edf6ff!important;}
+.content .btn{border-radius:5px!important;box-shadow:none!important;font-weight:600;}
+.content .btn-primary,.content .btn-info,.content .btn-success,.content .btn-warning{
+  background:#287db5!important;border-color:#287db5!important;color:#fff!important;
+}
+.content .btn-primary:hover,.content .btn-info:hover,.content .btn-success:hover,.content .btn-warning:hover{
+  background:#1f6798!important;border-color:#1f6798!important;color:#fff!important;
+}
+.content .btn-danger,.content .btn-danger:hover{background:#d9534f!important;border-color:#d43f3a!important;color:#fff!important;}
+.content .modal-content{border:0!important;border-radius:9px!important;box-shadow:0 8px 28px rgba(20,50,80,.18)!important;overflow:hidden;}
+.content .modal-header{background:#e8f2fc!important;border-bottom:1px solid #d4e2ef!important;padding:15px 20px!important;}
+.content .modal-footer{border-top:1px solid #e5edf5!important;}
+#ac_grouplist{background:#fff;border:1px solid #d5e0ea;border-radius:5px;}
+
+/* Each action button is an individual box with visible space between buttons */
+.content .bank-payment-actions{
+  display:flex!important;flex-wrap:wrap!important;align-items:center!important;
+  gap:10px!important;padding:12px 15px!important;
+}
+.content .bank-payment-actions>div{
+  float:none!important;width:auto!important;padding-left:0!important;padding-right:0!important;
+  margin:0!important;
+}
+.content .bank-payment-actions .btn{
+  display:inline-block!important;margin:0!important;padding:8px 14px!important;
+  min-height:36px;border:1px solid #287db5!important;border-radius:5px!important;
+}
+.content .bank-payment-actions .btn-warning{background:#287db5!important;border-color:#287db5!important;}
+.content .bank-payment-actions .btn-warning:hover{background:#1f6798!important;border-color:#1f6798!important;}
+@media(max-width:767px){
+  .content{padding:10px;}
+  .content .box-body{padding:10px!important;}
+  .content .bank-payment-actions{gap:8px!important;}
+  .content .bank-payment-actions .btn-lg{font-size:14px;padding:8px 10px!important;}
+  .content .modal-dialog{width:auto!important;margin:10px!important;}
+  .content table.table,.content table#example2{min-width:850px;}
+}
+</style>
 
 </body>
 
